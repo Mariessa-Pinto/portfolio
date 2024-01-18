@@ -1,0 +1,7 @@
+.main {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--green50);
+    border-radius: 5px;
+}
