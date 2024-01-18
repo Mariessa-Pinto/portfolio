@@ -10,9 +10,9 @@
     --poppins: 'Poppins', sans-serif;
 
     --light: 300;
-    --Medium: 400;
-    --Regular: 500;
-    --Semibold: 600;
+    --medium: 400;
+    --regular: 500;
+    --semibold: 600;
     --bold: 700;
 
     --h1: 100;
@@ -30,5 +30,8 @@
     --h4-space: 40;
     --subtitle-space: 40;
     --p-extra: 28;
+}
 
+body {
+    margin: 0;
 }
