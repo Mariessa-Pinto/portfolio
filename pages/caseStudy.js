@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/CaseStudy.module.css'
 import Link from 'next/link'
-
+import Navbar from '@/components/Navbar'
+import Contact from '@/components/Contact'
+import OtherProjects from '@/components/OtherProjects'
 
 export default function CaseStudy() {
     return (
@@ -14,6 +16,87 @@ export default function CaseStudy() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className={styles.main}>
+                <div className={styles.introSection}>
+                    <Navbar />
+                    <div className={styles.topContent}>
+                        <div>
+                            <h1>Innersight</h1>
+                            <p>Dates</p>
+                            <h2>Problem</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <h3>Summary</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <h3>Roles</h3>
+                            <ul>
+                                <li>Project Manager</li>
+                                <li>Full-Stack Web Developer</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <Image
+                                src={""}
+                                alt=''
+                                width={300}
+                                height={300}
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                {/* Challenges */}
+                <div className={styles.challenges}>
+
+                </div>
+                {/* Research */}
+                <div className={styles.research}>
+
+                </div>
+                {/* Persona */}
+                <div className={styles.persona}>
+
+                </div>
+                {/* Mapping */}
+                <div className={styles.mapping}>
+
+                </div>
+                {/* Logo */}
+                <div className={styles.logo}>
+
+                </div>
+                {/* Colors */}
+                <div className={styles.colors}>
+
+                </div>
+                {/* Sentiment */}
+                <div className={styles.sentiment}>
+
+                </div>
+                {/* Emotions */}
+                <div className={styles.emotions}>
+
+                </div>
+                {/* Solution */}
+                <div className={styles.solution}>
+
+                </div>
+                {/* Other Projects */}
+                <div className={styles.otherProjects}>
+                    <OtherProjects 
+                        url1='/projectOne' 
+                        title1='Borderless' 
+                        imageURL1=''
+                        url2='/projectTwo'
+                        title2='PagePal'
+                        imageURL2=''
+                        url3='/projectThree'
+                        title3='i18n Showcase'
+                        imageURL3=''
+                    />
+                </div>
+                {/* Contact */}
+                <div className={styles.contactSection}>
+                    <Contact />
+                </div>
             </main>
         </>
     )
