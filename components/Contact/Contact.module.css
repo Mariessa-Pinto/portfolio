@@ -1,0 +1,7 @@
+.main {
+    height: 45rem;
+    width: 100vw;
+    background-color: var(--green80);
+    display: flex;
+    flex-direction: row;
+}
