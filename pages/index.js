@@ -2,9 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
+import Navbar from '@/components/Navbar'
+import ProjectCard from '@/components/ProjectCard'
+import Contact from '@/components/Contact'
 
 
-export default function Home() {
+export default function Home({ props }) {
   return (
     <>
       <Head>
@@ -17,7 +20,59 @@ export default function Home() {
         </style>
       </Head>
       <main className={styles.main}>
-        <Link href={'/caseStudy'}>InnerSight</Link>
+        <div className={styles.introSection}>
+          <Navbar />
+          <div className={styles.topContent}>
+            <div>
+              <h1>Hi, I'm Mariessa.</h1>
+              <p>a passionate web developer and project manager who loves learning new things.</p>
+              <p>works to find new challenges, adopt new perspectives, and realize new solutions to optimize project outcomes.</p>
+              <button>View Projects</button>
+            </div>
+            <div>
+              <Image
+                src={""}
+                alt=''
+                width={300}
+                height={300}
+              />
+            </div>
+          </div>
+        </div>
+        <div className={styles.projects}>
+          <h2>Web Development</h2>
+          <ProjectCard
+            title="Innersight"
+            subtitle="Dates of Project"
+            description='Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.'
+            projectURL='/caseStudy'
+            imageSrc=''
+          />
+          <ProjectCard
+            title="Borderless"
+            subtitle="Dates of Project"
+            description='Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.'
+            projectURL='/projectOne'
+            imageSrc=''
+          />
+          <ProjectCard
+            title="i18n Showcase - BCIT English-French"
+            subtitle="Dates of Project"
+            description='Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.'
+            projectURL='/projectTwo'
+            imageSrc=''
+          />
+          <ProjectCard
+            title="Pagepal"
+            subtitle="Dates of Project"
+            description='Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.'
+            projectURL='/projectThree'
+            imageSrc=''
+          />
+        </div>
+        <div className={styles.contactSection}>
+          <Contact />
+        </div>
       </main>
     </>
   )

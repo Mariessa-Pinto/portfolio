@@ -3,8 +3,36 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
   min-height: 100vh;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.topContent {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+}
+
+.introSection {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--green80);
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9.5rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: var(--green50);
 }
 
 
