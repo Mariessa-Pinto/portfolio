@@ -19,32 +19,54 @@ export default function CaseStudy() {
                 <div className={styles.introSection}>
                     <Navbar />
                     <div className={styles.topContent}>
-                        <div>
-                            <h1>Innersight</h1>
-                            <p>Dates</p>
-                            <h2>Problem</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
-                            <h3>Summary</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
-                            <h3>Roles</h3>
-                            <ul>
-                                <li>Project Manager</li>
-                                <li>Full-Stack Web Developer</li>
+                        <div className={styles.mainText}>
+                            <h1 className={styles.topHeader}>Innersight</h1>
+                            <p className={styles.topDates}>September 2023 - Present</p>
+                            <h2 className={styles.topSubHeader}>Problem</h2>
+                            <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <h3 className={styles.subHeaderTwo}>Summary</h3>
+                            <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <h3 className={styles.subHeaderTwo}>Roles</h3>
+                            <ul className={styles.list}>
+                                <li className={styles.listItem}>Project Manager</li>
+                                <li className={styles.listItem}>Full-Stack Web Developer</li>
                             </ul>
                         </div>
-                        <div>
+                        <div className={styles.mainImage}>
                             <Image
                                 src={""}
                                 alt=''
-                                width={300}
-                                height={300}
+                                width={440}
+                                height={614}
                             />
                         </div>
                     </div>
                 </div>
-
                 {/* Challenges */}
                 <div className={styles.challenges}>
+                    <div className={styles.alignText}>
+                        <h2 className={styles.chalHeader}>Challenges</h2>
+                    </div>
+                    <div className={styles.chalSection}>
+                        <div className={styles.chalImage}>
+                            <Image
+                                src={''}
+                                alt=''
+                                height={477}
+                                width={440}
+                            />
+                        </div>
+                        <div className={styles.chalText}>
+                            <h3 className={styles.chalSubHead}>Subtitle</h3>
+                            <p className={styles.pSpaceAddedd}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <ul className={styles.listS}>
+                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
+                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
+                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
+                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
+                            </ul>
+                        </div>
+                    </div>
 
                 </div>
                 {/* Research */}
@@ -53,7 +75,17 @@ export default function CaseStudy() {
                 </div>
                 {/* Persona */}
                 <div className={styles.persona}>
-
+                    <div className={styles.alignText}>
+                        <h2 className={styles.persHeader}>User Persona</h2>
+                    </div>
+                    <div className={styles.persImage}>
+                        <Image
+                            src={''}
+                            alt=''
+                            height={720}
+                            width={900}
+                        />
+                    </div>
                 </div>
                 {/* Mapping */}
                 <div className={styles.mapping}>
@@ -81,9 +113,9 @@ export default function CaseStudy() {
                 </div>
                 {/* Other Projects */}
                 <div className={styles.otherProjects}>
-                    <OtherProjects 
-                        url1='/projectOne' 
-                        title1='Borderless' 
+                    <OtherProjects
+                        url1='/projectOne'
+                        title1='Borderless'
                         imageURL1=''
                         url2='/projectTwo'
                         title2='PagePal'

@@ -6,12 +6,17 @@
     min-height: 100vh;
     padding-left: 6rem;
     padding-right: 6rem;
+    font-family: var(--poppins);
 }
+
+/* Intro */
 
 .topContent {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 80vw;
+    margin-top: 1rem;
 }
 
 .introSection {
@@ -24,6 +29,62 @@
     align-items: center;
 }
 
+.mainImage {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.mainText {
+    max-width: 40rem;
+}
+
+.topHeader {
+    font-size: var(--h1);
+    font-weight: var(--light);
+    line-height: var(--h1-space);
+    margin: 0;
+    margin-top: 3rem;
+}
+
+.topDates {
+    font-size: var(--subtitle);
+    font-weight: var(--light);
+    color: var(--gray);
+    margin: 0;
+}
+
+.topSubHeader {
+    font-size: var(--h2);
+    font-weight: var(--light);
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.p {
+    font-size: var(--p);
+    margin: 0;
+}
+
+.subHeaderTwo {
+    font-size: var(--h3);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.list {
+    margin: 0;
+}
+
+.listItem {
+    font-size: var(--p);
+    text-decoration: none;
+    margin: 0;
+}
+
+/* Challenges */
+
 .challenges {
     height: 100vh;
     width: 100vw;
@@ -33,6 +94,63 @@
     flex-direction: column;
     align-items: center;
 }
+
+.chalSection {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+.chalImage {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.chalText {
+    max-width: 40rem;
+}
+
+.alignText {
+    width: 80vw;
+    display: flex;
+    align-items: flex-start;
+}
+
+.chalHeader {
+    font-size: var(--h2);
+    font-weight: var(--light);
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.chalSubHead {
+    font-size: var(--h3);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.pSpaceAdded {
+    line-height: var(--p-extra);
+    font-size: var(--p);
+    margin: 0;
+}
+
+.listS {
+    margin: 0;
+    line-height: var(--p-extra);
+}
+
+.listItemS {
+    font-size: var(--p);
+    text-decoration: none;
+    margin: 0;
+    line-height: var(--p-extra);
+}
+
+/* Reasearch */
 
 .research {
     height: 100vh;
@@ -44,6 +162,8 @@
     align-items: center;
 }
 
+/* Persona */
+
 .persona {
     height: 100vh;
     width: 100vw;
@@ -53,6 +173,21 @@
     flex-direction: column;
     align-items: center;
 }
+
+.persHeader {
+    font-size: var(--h4);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.persImage {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+/* Mapping */
 
 .mapping {
     height: 100vh;
@@ -64,6 +199,8 @@
     align-items: center;
 }
 
+/* Logo */
+
 .logo {
     height: 100vh;
     width: 100vw;
@@ -73,6 +210,8 @@
     flex-direction: column;
     align-items: center;
 }
+
+/* Colors and Mascots */
 
 .colors {
     height: 100vh;
@@ -84,6 +223,8 @@
     align-items: center;
 }
 
+/* Sentiment Analysis */
+
 .sentiment {
     height: 100vh;
     width: 100vw;
@@ -93,6 +234,8 @@
     flex-direction: column;
     align-items: center;
 }
+
+/* Emotions */
 
 .emotions {
     height: 100vh;
@@ -104,6 +247,8 @@
     align-items: center;
 }
 
+/* Solution */
+
 .solution {
     height: 100vh;
     width: 100vw;
@@ -113,6 +258,8 @@
     flex-direction: column;
     align-items: center;
 }
+
+/* Other Projects */
 
 .otherProjects {
     width: 100vw;
