@@ -15,21 +15,21 @@
     --semibold: 600;
     --bold: 700;
 
-    --h1: 100;
-    --h2: 64;
-    --h3: 40;
-    --h4: 32;
-    --h5: 24;
-    --p: 16;
-    --subtitle: 24;
-    --legal: 13;
+    --h1: 100px;
+    --h2: 64px;
+    --h3: 40px;
+    --h4: 32px;
+    --h5: 24px;
+    --p: 16px;
+    --subtitle: 24px;
+    --legal: 13px;
 
-    --h1-space: 109;
-    --h2-space: 40;
-    --h3-space: 40;
-    --h4-space: 40;
-    --subtitle-space: 40;
-    --p-extra: 28;
+    --h1-space: 109px;
+    --h2-space: 40px;
+    --h3-space: 40px;
+    --h4-space: 40px;
+    --subtitle-space: 40px;
+    --p-extra: 28px;
 }
 
 body {
