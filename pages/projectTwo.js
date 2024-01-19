@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/ProjectTwo.module.css'
 import Link from 'next/link'
-
+import OtherProjects from '@/components/OtherProjects'
+import Navbar from '@/components/Navbar'
+import Contact from '@/components/Contact'
 
 export default function ProjectTwo() {
     return (
@@ -14,7 +16,33 @@ export default function ProjectTwo() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className={styles.main}>
-                <h1>Under Development</h1>
+                <div className={styles.introSection}>
+                    <Navbar />
+                    <div className={styles.topContent}>
+                        <div>
+                            <h1>Under Construction</h1>
+                            <h1>il18n Showcase - BCIT English - French</h1>
+                        </div>
+                        <div>
+                            <Image
+                                src={""}
+                                alt=''
+                                width={300}
+                                height={300}
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.challenge}>
+                </div>
+                <div className={styles.solution}>
+                </div>
+                <div className={styles.otherProjects}>
+                    <OtherProjects />
+                </div>
+                <div id="contactSection" className={styles.contactSection}>
+                    <Contact />
+                </div>
             </main>
         </>
     )

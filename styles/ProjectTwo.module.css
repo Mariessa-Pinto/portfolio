@@ -1,0 +1,54 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.topContent {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+}
+
+.introSection {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--green80);
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.challenge {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--green50);
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.solution {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--green80);
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.otherProjects {
+    width: 100vw;
+    background-color: var(--green50);
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
