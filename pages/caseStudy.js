@@ -94,7 +94,7 @@ export default function CaseStudy() {
                     />
                 </div>
                 {/* Contact */}
-                <div className={styles.contactSection}>
+                <div id="contactSection" className={styles.contactSection}>
                     <Contact />
                 </div>
             </main>
