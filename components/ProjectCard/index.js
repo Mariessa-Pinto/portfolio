@@ -13,18 +13,18 @@ export default function ProjectCard({
     return (
         <>
             <main className={styles.main}>
-                <div>
-                    <h3>{title}</h3>
-                    <p>{subtitle}</p>
-                    <p>{description}</p>
-                    <Link href={projectURL}><button>View Project</button></Link>
+                <div className={styles.info}>
+                    <h3 className={styles.title}>{title}</h3>
+                    <p className={styles.dates}>{subtitle}</p>
+                    <p className={styles.description}>{description}</p>
+                    <Link href={projectURL}><button className={styles.button}>View Project</button></Link>
                 </div>
-                <div>
+                <div className={styles.image}>
                     <Image
                         src={imageSrc}
-                        alt=''
-                        width={300}
-                        height={200}
+                        alt={title}
+                        width={440}
+                        height={248}
                     />
                 </div>
             </main>
