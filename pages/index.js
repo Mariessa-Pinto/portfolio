@@ -7,7 +7,17 @@ import ProjectCard from '@/components/ProjectCard'
 import Contact from '@/components/Contact'
 
 
-export default function Home({ props }) {
+export default function Home() {
+  const scrollToWebDevelopment = () => {
+    const webDevelopmentSection = document.getElementById('webDevelopmentSection');
+
+    if (webDevelopmentSection) {
+      window.scrollTo({
+        top: webDevelopmentSection.offsetTop,
+        behavior: 'smooth',
+      });
+    }
+  };
   return (
     <>
       <Head>
@@ -23,24 +33,26 @@ export default function Home({ props }) {
         <div className={styles.introSection}>
           <Navbar />
           <div className={styles.topContent}>
-            <div>
-              <h1>Hi, I'm Mariessa.</h1>
-              <p>a passionate web developer and project manager who loves learning new things.</p>
-              <p>works to find new challenges, adopt new perspectives, and realize new solutions to optimize project outcomes.</p>
-              <button>View Projects</button>
+            <div className={styles.mainText}>
+              <h1 className={styles.title}>Hi, I'm Mariessa.</h1>
+              <p className={styles.shortDes}>a passionate <span className={styles.lightItalic}>web developer</span> and <span className={styles.lightItalic}>project manager</span> who loves learning new things.</p>
+              <p className={styles.smallDes}>works to find <span className={styles.lightItalic}>new challenges</span>, adopt <span className={styles.lightItalic}>new perspectives</span>, and realize <span className={styles.lightItalic}>new solutions</span> to optimize project outcomes.</p>
+              <button className={styles.button} onClick={scrollToWebDevelopment}>View Projects</button>
             </div>
-            <div>
+            <div className={styles.mainImage}>
               <Image
                 src={""}
                 alt=''
-                width={300}
-                height={300}
+                width={532}
+                height={582}
               />
             </div>
           </div>
         </div>
-        <div className={styles.projects}>
-          <h2>Web Development</h2>
+        <div id="webDevelopmentSection" className={styles.projects}>
+          <div className={styles.alignTitle}>
+            <h2 className={styles.subtitle}>Web Development</h2>
+          </div>
           <ProjectCard
             title="Innersight"
             subtitle="Dates of Project"
@@ -70,7 +82,7 @@ export default function Home({ props }) {
             imageSrc=''
           />
         </div>
-        <div className={styles.contactSection}>
+        <div id="contactSection" className={styles.contactSection}>
           <Contact />
         </div>
       </main>

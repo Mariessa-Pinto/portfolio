@@ -6,19 +6,22 @@
   min-height: 100vh;
   padding-left: 6rem;
   padding-right: 6rem;
+  font-family: var(--poppins);
 }
 
 .topContent {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 80vw;
+  margin-top: 1rem;
 }
 
 .introSection {
   height: 100vh;
   width: 100vw;
   background-color: var(--green80);
-  padding-top: 6rem;
+  padding-top: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,6 +36,63 @@
   padding-top: 6rem;
   padding-bottom: 6rem;
   background-color: var(--green50);
+}
+
+.subtitle {
+  font-size: var(--h2);
+  font-weight: var(--light);
+  margin-bottom: -4rem;
+  margin-top: 4rem;
+}
+
+.alignTitle {
+  width: 80vw;
+  display: flex;
+  align-items: flex-start;
+}
+
+.button {
+  width: 280px;
+  height: 44px;
+  background-color: var(--purple);
+  color: var(--white);
+  font-size: var(--p);
+  border-radius: 10px;
+  border: none;
+}
+
+.title {
+  font-size: var(--h1);
+  font-weight: var(--light);
+  line-height: var(--h1-space);
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+.shortDes {
+  font-size: var(--h5);
+  line-height: var(--h2-space);
+}
+
+.smallDes {
+  font-size: 20px;
+  line-height: var(--h2-space);
+  margin-bottom: 4rem;
+}
+
+.lightItalic {
+  font-weight: var(--light);
+  font-style: italic;
+}
+
+.mainImage {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.mainText {
+  max-width: 40rem;
 }
 
 
