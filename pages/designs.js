@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/Designs.module.css'
 import Link from 'next/link'
-
+import Navbar from '@/components/Navbar'
+import Contact from '@/components/Contact'
 
 export default function Designs() {
     return (
@@ -14,7 +15,20 @@ export default function Designs() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className={styles.main}>
-                <h1>Under Development</h1>
+                <div className={styles.introSection}>
+                    <Navbar />
+                    <div className={styles.topContent}>
+                        <div>
+                            <h1>Under Construction</h1>
+                            <h1>Design Projects</h1>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.grid}>
+                </div>
+                <div id="contactSection" className={styles.contactSection}>
+                    <Contact />
+                </div>
             </main>
         </>
     )
