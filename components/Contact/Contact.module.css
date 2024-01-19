@@ -3,5 +3,106 @@
     width: 100vw;
     background-color: var(--green80);
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--poppins);
+}
+
+.line {
+    width: 320px;
+    height: 4px;
+    background-color: var(--green);
+    border-radius: 5px;
+}
+
+.backToTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.positionBackToTop {
+    width: 80vw;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    margin-top: 8rem;
+}
+
+.copyright {
+    width: 80vw;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.buttonText {
+    font-weight: var(--light);
+    font-size: var(--h5);
+    margin-top: 0.5rem;
+}
+
+.legal {
+    font-size: var(--legal);
+}
+
+.header {
+    font-size: var(--h2);
+    font-weight: var(--light);
+}
+
+.text {
+    font-size: var(--subtitle);
+    font-weight: var(--light);
+}
+
+.button {
+    width: 256px;
+    height: 78px;
+    background-color: var(--green);
+    color: var(--white);
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px black;
+    display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: none;
+    font-size: var(--h5);
+    font-weight: var(--bold);
+    color: var(--white);
+}
+
+.buttonLink {
+    text-decoration: none;
+}
+
+.mainSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    height: 50rem;
+    align-items: flex-end;
+}
+
+.allButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-right: 12rem;
+}
+
+.topButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.bottomButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
 }
