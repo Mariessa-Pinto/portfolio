@@ -73,6 +73,7 @@
     font-size: var(--h5);
     font-weight: var(--bold);
     color: var(--white);
+    cursor: pointer;
 }
 
 .buttonLink {
