@@ -162,6 +162,57 @@
     align-items: center;
 }
 
+.resSection {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+.resText {
+    max-width: 40rem;
+}
+
+.resImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.paddingRight {
+    padding-right: 8rem;
+}
+
+.resSubtitle {
+    font-size: var(--h3);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-top: 3rem;
+}
+
+.resSubHead {
+    font-size: var(--h4);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.resSubHeadTwo {
+    font-size: var(--h5);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.indent {
+    padding-left: 10rem;
+}
+
 /* Persona */
 
 .persona {
@@ -199,6 +250,41 @@
     align-items: center;
 }
 
+.mapSection {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+.mapText {
+    max-width: 40rem;
+    padding-top: 6rem;
+    padding-left: 8rem;
+    padding-right: 2rem;
+}
+
+.mapImage {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.mapHeader {
+    font-size: var(--h4);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.mapSubHead {
+    font-size: var(--h5);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
 /* Logo */
 
 .logo {
@@ -211,16 +297,148 @@
     align-items: center;
 }
 
+.logoSection {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+.logoLeft {
+    max-width: 40rem;
+    padding-left: 4rem;
+    padding-right: 2rem;
+}
+
+.logoRight {
+    max-width: 40rem;
+    padding-left: 4rem;
+    padding-right: 2rem;
+}
+
+.logoHeader {
+    font-size: var(--h4);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.logoSubHead {
+    font-size: var(--h5);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
 /* Colors and Mascots */
 
 .colors {
     height: 100vh;
     width: 100vw;
     background-color: var(--green50);
-    padding-top: 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.colorSection {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+.colorLeft {
+    max-width: 40rem;
+    padding-right: 2rem;
+}
+
+.colorRight {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.squaresTop {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.squaresBottom {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.square {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.colorHeader {
+    font-size: var(--h4);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.colorSubHead {
+    font-size: var(--h5);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.mascotSection {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: flex-start;
+}
+
+.mascot {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.mascotLeft { 
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.mascotRight {
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.mascotText {
+    max-width: 25rem;
+}
+
+.mascotHeader {
+    font-size: var(--h4);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.mascotSubHead {
+    font-size: var(--h5);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-bottom: 1rem;
 }
 
 /* Sentiment Analysis */
@@ -235,6 +453,49 @@
     align-items: center;
 }
 
+.sentSection {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+.sentText {
+    max-width: 40rem;
+    padding-top: 6rem;
+    padding-left: 8rem;
+    padding-right: 2rem;
+}
+
+.sentImage {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.sentHeader {
+    font-size: var(--h3);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-top: 3rem;
+}
+
+.sentSubHead {
+    font-size: var(--h4);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.sentSubHeadTwo {
+    font-size: var(--h5);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+
 /* Emotions */
 
 .emotions {
@@ -247,6 +508,53 @@
     align-items: center;
 }
 
+.emoSection {
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.emoTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.emoImage {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.emoText {
+    max-width: 30rem;
+    padding-top: 6rem;
+    padding-left: 8rem;
+    padding-right: 2rem;
+}
+
+.alignTextS {
+    width: 65vw;
+    display: flex;
+    align-items: flex-start;
+}
+
+.emoHeader {
+    font-size: var(--h4);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.emoSubHead {
+    font-size: var(--h5);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
 /* Solution */
 
 .solution {
@@ -257,6 +565,64 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.solSection {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+.solHeader {
+    font-size: var(--h2);
+    font-weight: var(--light);
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.solMiddle {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.solButton {
+    width: 280px;
+    height: 44px;
+    background-color: var(--purple);
+    color: var(--white);
+    font-size: var(--p);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.solBottom {
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.solTop {
+    max-width: 30rem;
+}
+
+.solMWText {
+    max-width: 22rem;
+}
+
+.solPadding {
+    padding-bottom: 5rem;
+}
+
+.solSubHead {
+    font-size: var(--h3);
+    font-weight: var(--regular);
+    margin: 0;
+    margin-top: 1rem;
 }
 
 /* Other Projects */
