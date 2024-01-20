@@ -17,29 +17,114 @@ export default function ProjectThree() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className={styles.main}>
-                <div className={styles.introSection}>
+            <div className={styles.introSection}>
                     <Navbar />
                     <div className={styles.topContent}>
-                        <div>
-                            <h1>Under Construction</h1>
-                            <h1>PagePal</h1>
+                        <div className={styles.mainText}>
+                            <h1 className={styles.topHeader}>Pagepal</h1>
+                            <p className={styles.topDates}>April - May 2023</p>
+                            <h2 className={styles.topSubHeader}>Problem</h2>
+                            <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <h3 className={styles.subHeaderTwo}>Summary</h3>
+                            <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <h3 className={styles.subHeaderTwo}>Roles</h3>
+                            <ul className={styles.list}>
+                                <li className={styles.listItem}>Project Manager</li>
+                                <li className={styles.listItem}>Full-Stack Web Developer</li>
+                            </ul>
                         </div>
-                        <div>
+                        <div className={styles.mainImage}>
                             <Image
                                 src={""}
                                 alt=''
-                                width={300}
-                                height={300}
+                                width={440}
+                                height={577}
                             />
                         </div>
                     </div>
                 </div>
+                {/* Challenges */}
                 <div className={styles.challenge}>
+                <div className={styles.alignText}>
+                        <h2 className={styles.chalHeader}>Challenges</h2>
+                    </div>
+                    <div className={styles.chalSection}>
+                        <div className={styles.chalImage}>
+                            <Image
+                                src={''}
+                                alt=''
+                                height={477}
+                                width={440}
+                            />
+                        </div>
+                        <div className={styles.chalText}>
+                            <h3 className={styles.chalSubHead}>Subtitle</h3>
+                            <p className={styles.pSpaceAddedd}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <ul className={styles.listS}>
+                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
+                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
+                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
+                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div className={styles.solution}>
+                <div className={styles.alignText}>
+                        <h2 className={styles.solHeader}>Solution</h2>
+                    </div>
+                    <div className={styles.solSection}>
+                        <div className={styles.solTop}>
+                            <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                        </div>
+                        <div className={styles.solMiddle}>
+                            <div className={styles.solPadding}>
+                                <Image
+                                    src={''}
+                                    alt=''
+                                    height={361}
+                                    width={345}
+                                />
+                            </div>
+                            <Image
+                                src={''}
+                                alt=''
+                                height={361}
+                                width={345}
+                            />
+                            <div className={styles.solMWText}>
+                                <Image
+                                    src={''}
+                                    alt=''
+                                    height={361}
+                                    width={345}
+                                />
+                                <h3 className={styles.solSubHead}>Subtitle</h3>
+                                <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            </div>
+                        </div>
+                        <div className={styles.solBottom}>
+                            <Link href="">
+                                <button className={styles.solButton}>View Project Live</button>
+                            </Link>
+                            <Link href="">
+                                <button className={styles.solButton}>View Code</button>
+                            </Link>
+                        </div>
+                    </div>
                 </div>
                 <div className={styles.otherProjects}>
-                    <OtherProjects />
+                <OtherProjects
+                        link1='/caseStudy'
+                        title1='Innersight'
+                        imageURL1=''
+                        link2='/projectOne'
+                        title2='Borderless'
+                        imageURL2=''
+                        link3='/projectTwo'
+                        title3='i18n Showcase'
+                        imageURL3=''
+                    />
                 </div>
                 <div id="contactSection" className={styles.contactSection}>
                     <Contact />
