@@ -17,7 +17,13 @@
 }
 
 .image {
-    padding: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .button {

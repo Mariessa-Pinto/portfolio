@@ -55,28 +55,32 @@ export default function Home() {
           </div>
           <ProjectCard
             title="Innersight"
-            subtitle="Dates of Project"
-            description='Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.'
+            subtitle="September 2023 - Present"
+            description='Innersight is a journal app that utilizes artificial intelligence to help find problems in your day to day life and give insights on how to covercome these struggles.'
             projectURL='/caseStudy'
-            imageSrc=''
+            imageSrc='/images/innersight/homeScreen.webp'
+            width={450}
+            height={350}
           />
           <ProjectCard
             title="Borderless"
-            subtitle="Dates of Project"
+            subtitle="January - May 2023"
             description='Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.'
             projectURL='/projectOne'
             imageSrc=''
           />
           <ProjectCard
             title="i18n Showcase - BCIT English-French"
-            subtitle="Dates of Project"
+            subtitle="January - February 2023"
             description='Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.'
             projectURL='/projectTwo'
-            imageSrc=''
+            imageSrc='/images/i18n/i18nFrench.png'
+            width={600}
+            height={370}
           />
           <ProjectCard
             title="Pagepal"
-            subtitle="Dates of Project"
+            subtitle="April - May 2023"
             description='Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.'
             projectURL='/projectThree'
             imageSrc=''
