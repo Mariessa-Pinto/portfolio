@@ -16,14 +16,14 @@
     flex-direction: row;
     justify-content: space-between;
     width: 80vw;
-    margin-top: 1rem;
+    gap: 1rem;
 }
 
 .introSection {
     height: 100vh;
     width: 100vw;
     background-color: var(--green50);
-    padding-top: 5rem;
+    padding-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,6 +145,14 @@
 
 .listItemS {
     font-size: var(--p);
+    text-decoration: none;
+    margin: 0;
+    line-height: var(--p-extra);
+}
+
+.bold {
+    font-size: var(--p);
+    font-weight: var(--semibold);
     text-decoration: none;
     margin: 0;
     line-height: var(--p-extra);

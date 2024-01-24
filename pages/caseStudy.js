@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Navbar from '@/components/Navbar'
 import Contact from '@/components/Contact'
 import OtherProjects from '@/components/OtherProjects'
+import video from '../public/CustomerLandingPageVideo_1.mp4';
 
 export default function CaseStudy() {
     return (
@@ -23,9 +24,9 @@ export default function CaseStudy() {
                             <h1 className={styles.topHeader}>Innersight</h1>
                             <p className={styles.topDates}>September 2023 - Present</p>
                             <h2 className={styles.topSubHeader}>Problem</h2>
-                            <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <p className={styles.p}>Addresses the challenge of analyzing numerous journal entries to find correlations between the users activities and their mental health symptoms. Helping users to actively avoid or increase activities to improve overall well-being.</p>
                             <h3 className={styles.subHeaderTwo}>Summary</h3>
-                            <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <p className={styles.p}>Utilizes AI to find correlations within a user's daily journal entries by analyzing them on a weekly, monthly or yearly basis. The AI identifies the sentiment of a journal entry and whether activities have a positive or negative impact on their emotions allowing the user to determine what is contributing to their symptoms.</p>
                             <h3 className={styles.subHeaderTwo}>Roles</h3>
                             <ul className={styles.list}>
                                 <li className={styles.listItem}>Project Manager</li>
@@ -33,12 +34,11 @@ export default function CaseStudy() {
                             </ul>
                         </div>
                         <div className={styles.mainImage}>
-                            <Image
-                                src={""}
-                                alt=''
-                                width={440}
-                                height={614}
-                            />
+                            <div className={styles.imageContent}>
+                                <video style={{ width: '100%', height: '99%', borderRadius: 20 }} autoPlay muted controls>
+                                    <source src={video} type="video/mp4" />
+                                </video>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -57,13 +57,14 @@ export default function CaseStudy() {
                             />
                         </div>
                         <div className={styles.chalText}>
-                            <h3 className={styles.chalSubHead}>Subtitle</h3>
-                            <p className={styles.pSpaceAddedd}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <h3 className={styles.chalSubHead}>Innersight App Development</h3>
                             <ul className={styles.listS}>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
+                                <li className={styles.listItemS}><p className={styles.bold}>Balancing Simplicity and Functionality: </p>Creating an app that is both inviting for the users while also containing helpful features without causing overwhelm for the user.</li>
+                                <li className={styles.listItemS}><p className={styles.bold}>Journal Management: </p>Implementing the ability for users to seamlessly access, create, edit or delete journals and their entries while also maintaining a user-friendly interface.</li>
+                                <li className={styles.listItemS}><p className={styles.bold}>Sentiment Analysis: </p>Developing accurate and reliable sentiment analysis algorithms that enables the app to analyze journal enries for positive and negative tones.</li>
+                                <li className={styles.listItemS}><p className={styles.bold}>Emotional Data Compilation: </p>Develop a system that aggregates and presents the users' overall emotiosn on a weekly, monthly, and yearly basis.</li>
+                                <li className={styles.listItemS}><p className={styles.bold}>Maintaining Privacy and Security: </p>Ensuring the safety and confidentiality of user data, especially sensitive emotional content.</li>
+                                <li className={styles.listItemS}><p className={styles.bold}>User Interface Design: </p>Designing a visually appealing and intuitive user interface that does not overwhelm the user.</li>
                             </ul>
                         </div>
                     </div>
