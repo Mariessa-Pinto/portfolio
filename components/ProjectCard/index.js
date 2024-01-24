@@ -8,7 +8,9 @@ export default function ProjectCard({
     subtitle="subtitle",
     description="description",
     projectURL="",
-    imageSrc=""
+    imageSrc="",
+    width=100,
+    height=100
 }) {
     return (
         <>
@@ -21,10 +23,11 @@ export default function ProjectCard({
                 </div>
                 <div className={styles.image}>
                     <Image
+                        className={styles.img}
                         src={imageSrc}
                         alt={title}
-                        width={440}
-                        height={248}
+                        width={width}
+                        height={height}
                     />
                 </div>
             </main>

@@ -21,7 +21,7 @@
   height: 100vh;
   width: 100vw;
   background-color: var(--green80);
-  padding-top: 5rem;
+  padding-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
