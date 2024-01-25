@@ -164,7 +164,7 @@
     height: 100vh;
     width: 100vw;
     background-color: var(--green50);
-    padding-top: 6rem;
+    padding-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -358,8 +358,8 @@
 }
 
 .colorLeft {
-    max-width: 40rem;
-    padding-right: 2rem;
+    max-width: 35rem;
+    padding-right: 1rem;
 }
 
 .colorRight {
@@ -371,13 +371,13 @@
 .squaresTop {
     display: flex;
     flex-direction: row;
-    gap: 5rem;
+    gap: 1.6rem;
 }
 
 .squaresBottom {
     display: flex;
     flex-direction: row;
-    gap: 5rem;
+    gap: 1rem;
 }
 
 .square {
@@ -391,15 +391,56 @@
     font-size: var(--h4);
     font-weight: var(--regular);
     margin: 0;
-    margin-top: 2rem;
 }
 
 .colorSubHead {
     font-size: var(--h5);
     font-weight: var(--regular);
     margin: 0;
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
+}
+
+.color1 {
+    width: 70px;
+    height: 70px;
+    background-color: #6164c3;
+    border-radius: 5px;
+}
+
+.color2 {
+    width: 70px;
+    height: 70px;
+    background-color: #2d3180;
+    border-radius: 5px;
+}
+
+.color3 {
+    width: 70px;
+    height: 70px;
+    background-color: #525585;
+    border-radius: 5px;
+}
+
+.color4 {
+    width: 70px;
+    height: 70px;
+    background-color: #c5c7f7;
+    border-radius: 5px;
+}
+
+.color5 {
+    width: 70px;
+    height: 70px;
+    background-color: #7e82f2;
+    border-radius: 5px;
+}
+
+.color6 {
+    width: 70px;
+    height: 70px;
+    background-color: #f2f2fd;
+    border-radius: 5px;
 }
 
 .mascotSection {
@@ -417,10 +458,11 @@
 }
 
 .mascotLeft { 
-    padding-right: 1rem;
+    padding-right: 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-top: 1.5rem
 }
 
 .mascotRight {
@@ -428,6 +470,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-top: 1.5rem
 }
 
 .mascotText {
@@ -446,7 +489,23 @@
     font-size: var(--h5);
     font-weight: var(--regular);
     margin: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.mascotDesc {
+    width: 80vw;
+    display: flex;
+    align-items: flex-start;
+}
+
+.pHalf {
+    font-size: var(--p);
+    margin: 0;
+    max-width: 38rem;
+}
+
+.img {
+    object-fit: cover;
 }
 
 /* Sentiment Analysis */
@@ -470,7 +529,7 @@
 
 .sentText {
     max-width: 40rem;
-    padding-top: 6rem;
+    padding-top: 2rem;
     padding-left: 8rem;
     padding-right: 2rem;
 }
@@ -492,14 +551,14 @@
     font-size: var(--h4);
     font-weight: var(--regular);
     margin: 0;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .sentSubHeadTwo {
     font-size: var(--h5);
     font-weight: var(--regular);
     margin: 0;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -569,7 +628,7 @@
     height: 100vh;
     width: 100vw;
     background-color: var(--green80);
-    padding-top: 6rem;
+    padding-top: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -611,7 +670,7 @@
 .solBottom {
     display: flex;
     gap: 2rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .solTop {
@@ -623,7 +682,11 @@
 }
 
 .solPadding {
-    padding-bottom: 5rem;
+    padding-bottom: 9rem;
+}
+
+.solLessPadding {
+    padding-bottom: 3rem;
 }
 
 .solSubHead {

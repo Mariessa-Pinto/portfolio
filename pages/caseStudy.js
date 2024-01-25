@@ -62,7 +62,7 @@ export default function CaseStudy() {
                                 <li className={styles.listItemS}><p className={styles.bold}>Balancing Simplicity and Functionality: </p>Creating an app that is both inviting for the users while also containing helpful features without causing overwhelm for the user.</li>
                                 <li className={styles.listItemS}><p className={styles.bold}>Journal Management: </p>Implementing the ability for users to seamlessly access, create, edit or delete journals and their entries while also maintaining a user-friendly interface.</li>
                                 <li className={styles.listItemS}><p className={styles.bold}>Sentiment Analysis: </p>Developing accurate and reliable sentiment analysis algorithms that enables the app to analyze journal enries for positive and negative tones.</li>
-                                <li className={styles.listItemS}><p className={styles.bold}>Emotional Data Compilation: </p>Develop a system that aggregates and presents the users' overall emotiosn on a weekly, monthly, and yearly basis.</li>
+                                <li className={styles.listItemS}><p className={styles.bold}>Emotional Data Compilation: </p>Develop a system that aggregates and presents the users' overall emotions on a weekly, monthly, and yearly basis.</li>
                                 <li className={styles.listItemS}><p className={styles.bold}>Maintaining Privacy and Security: </p>Ensuring the safety and confidentiality of user data, especially sensitive emotional content.</li>
                                 <li className={styles.listItemS}><p className={styles.bold}>User Interface Design: </p>Designing a visually appealing and intuitive user interface that does not overwhelm the user.</li>
                             </ul>
@@ -75,15 +75,15 @@ export default function CaseStudy() {
                         <div className={styles.resText}>
                             <h2 className={styles.resSubtitle}>Design Process</h2>
                             <h3 className={styles.resSubHead}>Research</h3>
-                            <p className={styles.pSpaceAdded}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <p className={styles.pSpaceAdded}>The initial stages of Innersight included a heavy focus on both competitive and user research. Competitive analysis and user surveys were conducted to determine unmet needs in the target audience.</p>
                             <div className={styles.indent}>
                                 <h4 className={styles.resSubHeadTwo}>Findings</h4>
-                                <p className={styles.pSpaceAdded}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                                <p className={styles.pSpaceAdded}>After completing a survey, the data from 23 respondants was collected and analyzed to gain valuable insights into both positive and negative experiences of journaling. The following points were highlighted through survey results as neccessary for Innersight's success.</p>
                                 <ul className={styles.listS}>
-                                    <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                    <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                    <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                    <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
+                                    <li className={styles.listItemS}>A privacy policy to build trust between the app and users.</li>
+                                    <li className={styles.listItemS}>Statistics and progress reports to identify key correlations between their emotions and behaviours.</li>
+                                    <li className={styles.listItemS}>Prompts to make writting entries less overwhelming for the user.</li>
+                                    <li className={styles.listItemS}>Resources to learn how to manage their symptoms.</li>
                                 </ul>
                             </div>
                         </div>
@@ -128,17 +128,17 @@ export default function CaseStudy() {
                 {/* Mapping */}
                 <div className={styles.mapping}>
                     <div className={styles.alignText}>
-                        <h3 className={styles.mapHeader}>Project Mapping/Workflow</h3>
+                        <h3 className={styles.mapHeader}>Project Journey Map</h3>
                     </div>
                     <div className={styles.mapSection}>
                         <div className={styles.mapText}>
-                            <h3 className={styles.mapSubHead}>Subtitle</h3>
-                            <p className={styles.pSpaceAdded}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <h3 className={styles.mapSubHead}>User Flow</h3>
+                            <p className={styles.pSpaceAdded}>Before starting the initial design, the team put together a User Journey Map to ensure the user would be able to access key features in an intuitive and user friendly way. Key parts of this flow include:</p>
                             <ul className={styles.listS}>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
+                                <li className={styles.listItemS}>The <span className={styles.bold}>Home</span> screen with a prompt to write a journal entry and have a quick view of statistics.</li>
+                                <li className={styles.listItemS}>A <span className={styles.bold}>New Entry</span> screen where the user can view a prompt as well as write their entry and analyze it.</li>
+                                <li className={styles.listItemS}>A <span className={styles.bold}>Statistics and Recomendations</span> screen where the user can view insights and advice.</li>
+                                <li className={styles.listItemS}>A <span className={styles.bold}>Journal/Entries</span> screen where the user can see their journals and the entries within.</li>
                             </ul>
                         </div>
                         <div className={styles.mapImage}>
@@ -165,7 +165,7 @@ export default function CaseStudy() {
                                 height={240}
                                 width={347}
                             />
-                            <p className={styles.pSpaceAdded}>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</p>
+                            <p className={styles.pSpaceAdded}>The intial logo design and colors were meant to capture the inward reflection required to journal and manage mental health symptoms.</p>
                             <h5 className={styles.logoSubHead}>Color Scheme Added</h5>
                             <Image
                                 src={''}
@@ -182,7 +182,7 @@ export default function CaseStudy() {
                                 height={360}
                                 width={438}
                             />
-                            <p className={styles.pSpaceAdded}>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</p>
+                            <p className={styles.pSpaceAdded}>The redesign focused on taking the same line and blob style but applyign it in a more uplifting way to reflect the positive results Innersight can bring to users.</p>
                         </div>
                     </div>
                 </div>
@@ -193,89 +193,59 @@ export default function CaseStudy() {
                     </div>
                     <div className={styles.colorSection}>
                         <div className={styles.colorLeft}>
-                            <h5 className={styles.colorSubHead}>Subtitle</h5>
-                            <p className={styles.pSpaceAdded}>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</p>
+                            <h5 className={styles.colorSubHead}>Monochromatic Purple</h5>
+                            <p className={styles.pSpaceAdded}>The monochromatic purple color palette was designed in reducing feelings of anxiety or the need to rush through the process of writting an entry. Purple was choosen as the primary color as it has a calming effect that helps users not feel overwhelmed when interacting with the app.</p>
                         </div>
                         <div className={styles.colorRight}>
                             <div className={styles.squaresTop}>
                                 <div className={styles.square}>
-                                    <Image
-                                        src={''}
-                                        alt=''
-                                        height={70}
-                                        width={70}
-                                    />
+                                    <div className={styles.color1}></div>
                                     <div className={styles.squareText}>
-                                        <p className={styles.p}>Color</p>
-                                        <p className={styles.p}>Hex</p>
-                                        <p className={styles.p}>rgb</p>
+                                        <p className={styles.p}>Savoy Blue</p>
+                                        <p className={styles.p}>#6164C3</p>
+                                        <p className={styles.p}>rgb(97, 100, 195)</p>
                                     </div>
                                 </div>
                                 <div className={styles.square}>
-                                    <Image
-                                        src={''}
-                                        alt=''
-                                        height={70}
-                                        width={70}
-                                    />
+                                    <div className={styles.color2}></div>
                                     <div className={styles.squareText}>
-                                        <p className={styles.p}>Color</p>
-                                        <p className={styles.p}>Hex</p>
-                                        <p className={styles.p}>rgb</p>
+                                        <p className={styles.p}>Midnight Blue</p>
+                                        <p className={styles.p}>#2D3180</p>
+                                        <p className={styles.p}>rgb(45, 49, 128)</p>
                                     </div>
                                 </div>
                                 <div className={styles.square}>
-                                    <Image
-                                        src={''}
-                                        alt=''
-                                        height={70}
-                                        width={70}
-                                    />
+                                    <div className={styles.color3}></div>
                                     <div className={styles.squareText}>
-                                        <p className={styles.p}>Color</p>
-                                        <p className={styles.p}>Hex</p>
-                                        <p className={styles.p}>rgb</p>
+                                        <p className={styles.p}>Delft Blue</p>
+                                        <p className={styles.p}>#525585</p>
+                                        <p className={styles.p}>rgb(82, 85, 133)</p>
                                     </div>
                                 </div>
                             </div>
                             <div className={styles.squaresBottom}>
                                 <div className={styles.square}>
-                                    <Image
-                                        src={''}
-                                        alt=''
-                                        height={70}
-                                        width={70}
-                                    />
+                                    <div className={styles.color4}></div>
                                     <div className={styles.squareText}>
-                                        <p className={styles.p}>Color</p>
-                                        <p className={styles.p}>Hex</p>
-                                        <p className={styles.p}>rgb</p>
+                                        <p className={styles.p}>Periwinkle</p>
+                                        <p className={styles.p}>#C5C7F7</p>
+                                        <p className={styles.p}>rgb(197, 199, 247)</p>
                                     </div>
                                 </div>
                                 <div className={styles.square}>
-                                    <Image
-                                        src={''}
-                                        alt=''
-                                        height={70}
-                                        width={70}
-                                    />
+                                    <div className={styles.color5}></div>
                                     <div className={styles.squareText}>
-                                        <p className={styles.p}>Color</p>
-                                        <p className={styles.p}>Hex</p>
-                                        <p className={styles.p}>rgb</p>
+                                        <p className={styles.p}>Tropical Indigo</p>
+                                        <p className={styles.p}>#7E82F2</p>
+                                        <p className={styles.p}>rgb(126, 130, 242)</p>
                                     </div>
                                 </div>
                                 <div className={styles.square}>
-                                    <Image
-                                        src={''}
-                                        alt=''
-                                        height={70}
-                                        width={70}
-                                    />
+                                    <div className={styles.color6}></div>
                                     <div className={styles.squareText}>
-                                        <p className={styles.p}>Color</p>
-                                        <p className={styles.p}>Hex</p>
-                                        <p className={styles.p}>rgb</p>
+                                        <p className={styles.p}>Light Lavender</p>
+                                        <p className={styles.p}>#F2F2FD</p>
+                                        <p className={styles.p}>rgb(242, 242, 253)</p>
                                     </div>
                                 </div>
                             </div>
@@ -284,34 +254,39 @@ export default function CaseStudy() {
                     <div className={styles.alignText}>
                         <h3 className={styles.mascotHeader}>Mascots</h3>
                     </div>
+                    <div className={styles.mascotDesc}>
+                    <p className={styles.pHalf}>Users have option to customize their mascot so that they can feel that there is a pesronalized companion that is following and guiding them through their mental health journey.</p>
+                    </div>
                     <div className={styles.mascotSection}>
                         <div className={styles.mascotLeft}>
                             <div className={styles.mascot}>
                                 <div className={styles.mascotImage}>
                                     <Image
-                                        src={''}
-                                        alt=''
-                                        height={160}
-                                        width={160}
+                                        className={styles.img}
+                                        src={'/images/innersight/Panda.png'}
+                                        alt='panda'
+                                        height={100}
+                                        width={100}
                                     />
                                 </div>
                                 <div className={styles.mascotText}>
                                     <h5 className={styles.mascotSubHead}>Panda</h5>
-                                    <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p className={styles.p}>Represents peace and friendship.</p>
                                 </div>
                             </div>
                             <div className={styles.mascot}>
                                 <div className={styles.mascotImage}>
                                     <Image
-                                        src={''}
-                                        alt=''
-                                        height={160}
-                                        width={160}
+                                        className={styles.img}
+                                        src={'/images/innersight/Otter.png'}
+                                        alt='Otter'
+                                        height={90}
+                                        width={100}
                                     />
                                 </div>
                                 <div className={styles.mascotText}>
                                     <h5 className={styles.mascotSubHead}>Otter</h5>
-                                    <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p className={styles.p}>Represents kindness and family.</p>
                                 </div>
                             </div>
                         </div>
@@ -319,29 +294,31 @@ export default function CaseStudy() {
                             <div className={styles.mascot}>
                                 <div className={styles.mascotImage}>
                                     <Image
-                                        src={''}
-                                        alt=''
-                                        height={160}
-                                        width={160}
+                                        className={styles.img}
+                                        src={'/images/innersight/Frog.png'}
+                                        alt='Frog'
+                                        height={83}
+                                        width={100}
                                     />
                                 </div>
                                 <div className={styles.mascotText}>
                                     <h5 className={styles.mascotSubHead}>Frog</h5>
-                                    <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p className={styles.p}>Represents wisdom and good luck.</p>
                                 </div>
                             </div>
                             <div className={styles.mascot}>
                                 <div className={styles.mascotImage}>
                                     <Image
-                                        src={''}
-                                        alt=''
-                                        height={160}
-                                        width={160}
+                                        className={styles.img}
+                                        src={'/images/innersight/Sloth.png'}
+                                        alt='Sloth'
+                                        height={92}
+                                        width={100}
                                     />
                                 </div>
                                 <div className={styles.mascotText}>
                                     <h5 className={styles.mascotSubHead}>Sloth</h5>
-                                    <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p className={styles.p}>Represents relaxation and patience.</p>
                                 </div>
                             </div>
                         </div>
@@ -355,13 +332,12 @@ export default function CaseStudy() {
                     <div className={styles.sentSection}>
                         <div className={styles.sentText}>
                             <h4 className={styles.sentSubHead}>Sentiment Analysis</h4>
-                            <h5 className={styles.sentSubHeadTwo}>Subtitle</h5>
-                            <p className={styles.pSpaceAdded}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <h5 className={styles.sentSubHeadTwo}>Implementation</h5>
+                            <p className={styles.pSpaceAdded}>This part of the coding process aimed to understand and analyze the emotional tone conveyed through user-generated journal entries, providing a foundation for other features such as emotion tracking throughout the app.</p>
                             <ul className={styles.listS}>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
+                                <li className={styles.listItemS}>Using a machine learning model tailored for sentiment analysis, we trained the system to accurately classify each entry's sentiment.</li>
+                                <li className={styles.listItemS}>We used text processing to break down the journal entries into meaningful components for the user to see which parts of their entries were positive or negative in tone.</li>
+                                <li className={styles.listItemS}>This process set the groundwork for later implementation of personalized recommendations based on the users individual sentiment analysis data.</li>
                             </ul>
                         </div>
                         <div className={styles.sentImage}>
@@ -390,13 +366,12 @@ export default function CaseStudy() {
                                 />
                             </div>
                             <div className={styles.emoText}>
-                                <h5 className={styles.emoSubHead}>Subtitle</h5>
-                                <p className={styles.pSpaceAdded}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                                <h5 className={styles.emoSubHead}>Pie Chart</h5>
+                                <p className={styles.pSpaceAdded}>The pie chart feature aimed to conceptualize the data gathered and present it in an easy to digest and non overwhelming manner.</p>
                                 <ul className={styles.listS}>
-                                    <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                    <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                    <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                    <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
+                                    <li className={styles.listItemS}>Gave users a visual representation of their overal emotions and whether they were mainly positive or negative.</li>
+                                    <li className={styles.listItemS}>Categorized emotions as positive or negative and displayed them in a different color on the pie chart.</li>
+                                    <li className={styles.listItemS}>Below the pie chart, entries related to the emotions in the chart are displayed for the user to browse.</li>
                                 </ul>
                             </div>
                         </div>
@@ -417,7 +392,7 @@ export default function CaseStudy() {
                     </div>
                     <div className={styles.solSection}>
                         <div className={styles.solTop}>
-                            <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <p className={styles.p}>To solve the problem, Innersight uses AI to analyze the emotional tone of entries, record the data and generate an analysis of the tone of entries for the user.</p>
                         </div>
                         <div className={styles.solMiddle}>
                             <div className={styles.solPadding}>
@@ -428,12 +403,14 @@ export default function CaseStudy() {
                                     width={345}
                                 />
                             </div>
-                            <Image
-                                src={''}
-                                alt=''
-                                height={361}
-                                width={345}
-                            />
+                            <div className={styles.solLessPadding}>
+                                <Image
+                                    src={''}
+                                    alt=''
+                                    height={361}
+                                    width={345}
+                                />
+                            </div>
                             <div className={styles.solMWText}>
                                 <Image
                                     src={''}
@@ -441,17 +418,17 @@ export default function CaseStudy() {
                                     height={361}
                                     width={345}
                                 />
-                                <h3 className={styles.solSubHead}>Subtitle</h3>
-                                <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                                <h3 className={styles.solSubHead}>Emotional Tracking</h3>
+                                <p className={styles.p}>Through the analysis of organic text, Innersight tracks the emotions of users and displays them in a visually pleasing pie chart for them to see the overall condition of their current emotions at a quick glance.</p>
                             </div>
                         </div>
                         <div className={styles.solBottom}>
-                            <Link href="">
+                            <a target="_blank" href="https://play.google.com/store/apps/details?id=ca.innersightapp.app&pcampaignid=web_share" rel="noopener noreferrer">
                                 <button className={styles.solButton}>View Project Live</button>
-                            </Link>
-                            <Link href="">
+                            </a>
+                            <a target="_blank" href="https://github.com/Mariessa-Pinto/innersight" rel="noopener noreferrer">
                                 <button className={styles.solButton}>View Code</button>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>
