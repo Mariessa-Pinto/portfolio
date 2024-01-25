@@ -71,8 +71,8 @@ export default function Home() {
           />
           <ProjectCard
             title="i18n Showcase - BCIT English-French"
-            subtitle="January - February 2023"
-            description='Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.'
+            subtitle="February - March 2023"
+            description='Coded a page from the BCIT website using i18n to provide internationalization through the dynamic translation of the page. It is available in French and in English and can be changed live.'
             projectURL='/projectTwo'
             imageSrc='/images/i18n/i18nFrench.png'
             width={600}
