@@ -21,14 +21,13 @@ export default function ProjectTwo() {
                     <div className={styles.topContent}>
                         <div className={styles.mainText}>
                             <h1 className={styles.topHeader}>i18n Showcase</h1>
-                            <p className={styles.topDates}>January - February 2023</p>
+                            <p className={styles.topDates}>February - March 2023</p>
                             <h2 className={styles.topSubHeader}>Problem</h2>
-                            <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <p className={styles.p}>Users wanting to access the British Columbia Institute of Technology Page in various languages were not able to. French is the second language in Canada and therefore the site should be available to French users in their native tongue.</p>
                             <h3 className={styles.subHeaderTwo}>Summary</h3>
-                            <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
-                            <h3 className={styles.subHeaderTwo}>Roles</h3>
+                            <p className={styles.p}>Coded the BCIT Digital Design and Development Diploma Graduating and Jobs page using i18n to provide internationalization through the dynamic translation of the page. It is available in French and in English and can be changed live.</p>
+                            <h3 className={styles.subHeaderTwo}>Role</h3>
                             <ul className={styles.list}>
-                                <li className={styles.listItem}>Project Manager</li>
                                 <li className={styles.listItem}>Full-Stack Web Developer</li>
                             </ul>
                         </div>
@@ -57,13 +56,13 @@ export default function ProjectTwo() {
                             />
                         </div>
                         <div className={styles.chalText}>
-                            <h3 className={styles.chalSubHead}>Subtitle</h3>
-                            <p className={styles.pSpaceAddedd}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <h3 className={styles.chalSubHead}>A Multilingual Webpage</h3>
+                            <p className={styles.pSpaceAddedd}>Translation on its own comes with its own set of challenges including the consistency in the meaning of words when direct translations are not sufficient. Other challenges faced in relation to this project include:</p>
                             <ul className={styles.listS}>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
+                                <li className={styles.listItemS}>Maintaining a seamless user experience regarless of the language the content is being viewed in.</li>
+                                <li className={styles.listItemS}>Insuring the user interface funcitons in all chosen translations as word lengths vary by language.</li>
+                                <li className={styles.listItemS}>Ensuring the management and maintenance of keeping the page up to date and new content translated.</li>
+                                <li className={styles.listItemS}>Implementation of the i18n can be complex and requires thorough documentation or experience in coding to maintain.</li>
                             </ul>
                         </div>
                     </div>
@@ -74,7 +73,7 @@ export default function ProjectTwo() {
                     </div>
                     <div className={styles.solSection}>
                         <div className={styles.solTop}>
-                            <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <p className={styles.p}>Using i18next to internationalize the webpage allows for users who speak French as their first langugae in Canada to access and read the content on the page.</p>
                         </div>
                         <div className={styles.solMiddle}>
                             <div className={styles.solPadding}>
@@ -85,12 +84,14 @@ export default function ProjectTwo() {
                                     width={345}
                                 />
                             </div>
+                            <div className={styles.solLessPadding}>
                             <Image
                                 src={''}
                                 alt=''
                                 height={361}
                                 width={345}
                             />
+                            </div>
                             <div className={styles.solMWText}>
                                 <Image
                                     src={''}
@@ -98,17 +99,17 @@ export default function ProjectTwo() {
                                     height={361}
                                     width={345}
                                 />
-                                <h3 className={styles.solSubHead}>Subtitle</h3>
-                                <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                                <h3 className={styles.solSubHead}>French and English</h3>
+                                <p className={styles.p}>The page is now available in both of Canada's national languages.</p>
                             </div>
                         </div>
                         <div className={styles.solBottom}>
-                            <Link href="">
+                            <a target="_blank" href="https://mdia2109-class10-change-languages.vercel.app/" rel="noopener noreferrer">
                                 <button className={styles.solButton}>View Project Live</button>
-                            </Link>
-                            <Link href="">
+                            </a>
+                            <a target="_blank" href="https://github.com/Mariessa-Pinto/mdia2109-class10-change-languages" rel="noopener noreferrer">
                                 <button className={styles.solButton}>View Code</button>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>
