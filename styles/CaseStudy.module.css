@@ -158,6 +158,11 @@
     line-height: var(--p-extra);
 }
 
+.imgChal {
+    object-fit: cover;
+    border-radius: 20px;
+}
+
 /* Reasearch */
 
 .research {
@@ -186,12 +191,21 @@
     flex-direction: column;
     align-items: center;
     margin-top: 3rem;
-    gap: 4rem;
+    gap: 3rem;
     justify-content: center;
 }
 
 .paddingRight {
-    padding-right: 8rem;
+    margin-right: 8rem;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 10px 10px 10px var(--green80);
+}
+
+.resImages {
+    border-radius: 20px;
+    object-fit: cover;    
+    box-shadow: 10px 10px 10px var(--green80);
 }
 
 .resSubtitle {

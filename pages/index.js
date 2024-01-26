@@ -58,9 +58,9 @@ export default function Home() {
             subtitle="September 2023 - Present"
             description='Innersight is a journal app that utilizes artificial intelligence to help find problems in your day to day life and give insights on how to covercome these struggles.'
             projectURL='/caseStudy'
-            imageSrc='/images/innersight/homeScreen.webp'
+            imageSrc='/images/innersight/innersightHome.svg'
             width={450}
-            height={350}
+            height={400}
           />
           <ProjectCard
             title="Borderless"

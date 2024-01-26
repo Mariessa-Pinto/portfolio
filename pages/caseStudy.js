@@ -50,10 +50,11 @@ export default function CaseStudy() {
                     <div className={styles.chalSection}>
                         <div className={styles.chalImage}>
                             <Image
-                                src={''}
-                                alt=''
-                                height={477}
-                                width={440}
+                                className={styles.imgChal}
+                                src={'/images/innersight/challenges.png'}
+                                alt='innersight screens'
+                                height={450}
+                                width={600}
                             />
                         </div>
                         <div className={styles.chalText}>
@@ -90,23 +91,24 @@ export default function CaseStudy() {
                         <div className={styles.resImage}>
                             <Image
                                 className={styles.paddingRight}
-                                src={''}
-                                alt=''
-                                height={160}
-                                width={348}
+                                src={'/images/innersight/customer.png'}
+                                alt='customer landing page'
+                                height={200}
+                                width={360}
                             />
                             <Image
-                                src={''}
-                                alt=''
-                                height={160}
-                                width={348}
+                                className={styles.resImages}
+                                src={'/images/innersight/marketing.png'}
+                                alt='marketing landing page'
+                                height={220}
+                                width={370}
                             />
                             <Image
                                 className={styles.paddingRight}
-                                src={''}
-                                alt=''
-                                height={160}
-                                width={348}
+                                src={'/images/innersight/invest.png'}
+                                alt='investor landing page'
+                                height={210}
+                                width={370}
                             />
                         </div>
                     </div>
