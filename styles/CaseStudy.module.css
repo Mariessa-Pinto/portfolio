@@ -161,6 +161,7 @@
 .imgChal {
     object-fit: cover;
     border-radius: 20px;
+    box-shadow: 10px 10px 10px var(--green80);
 }
 
 /* Reasearch */
@@ -227,7 +228,7 @@
     font-size: var(--h5);
     font-weight: var(--regular);
     margin: 0;
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -257,7 +258,13 @@
 .persImage {
     display: flex;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
+}
+
+.imgPers {
+    border-radius: 20px;
+    object-fit: cover;    
+    box-shadow: 10px 10px 10px var(--green80);
 }
 
 /* Mapping */
@@ -330,12 +337,18 @@
     max-width: 40rem;
     padding-left: 4rem;
     padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .logoRight {
     max-width: 40rem;
     padding-left: 4rem;
     padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .logoHeader {
@@ -349,8 +362,7 @@
     font-size: var(--h5);
     font-weight: var(--regular);
     margin: 0;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 /* Colors and Mascots */

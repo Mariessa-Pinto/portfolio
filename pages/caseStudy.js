@@ -35,7 +35,7 @@ export default function CaseStudy() {
                         </div>
                         <div className={styles.mainImage}>
                             <div className={styles.imageContent}>
-                                <video style={{ width: '100%', height: '99%', borderRadius: 20 }} autoPlay muted controls>
+                                <video style={{ width: '100%', height: '99%', borderRadius: 20, boxShadow: '10px 10px 10px var(--green80)' }} autoPlay muted controls>
                                     <source src={video} type="video/mp4" />
                                 </video>
                             </div>
@@ -120,10 +120,11 @@ export default function CaseStudy() {
                     </div>
                     <div className={styles.persImage}>
                         <Image
-                            src={''}
-                            alt=''
-                            height={720}
-                            width={900}
+                            className={styles.imgPers}
+                            src={'/images/innersight/personas.png'}
+                            alt='user personas'
+                            height={800}
+                            width={1100}
                         />
                     </div>
                 </div>
@@ -145,9 +146,10 @@ export default function CaseStudy() {
                         </div>
                         <div className={styles.mapImage}>
                             <Image
-                                src={''}
-                                alt=''
-                                height={660}
+                                className={styles.imgPers}
+                                src={'/images/innersight/flow.png'}
+                                alt='user flow'
+                                height={710}
                                 width={622}
                             />
                         </div>
@@ -162,27 +164,30 @@ export default function CaseStudy() {
                         <div className={styles.logoLeft}>
                             <h5 className={styles.logoSubHead}>Initial Design</h5>
                             <Image
-                                src={''}
-                                alt=''
-                                height={240}
-                                width={347}
+                                className={styles.imgPers}
+                                src={'/images/innersight/logoV1.png'}
+                                alt='original logo'
+                                height={190}
+                                width={400}
                             />
                             <p className={styles.pSpaceAdded}>The intial logo design and colors were meant to capture the inward reflection required to journal and manage mental health symptoms.</p>
                             <h5 className={styles.logoSubHead}>Color Scheme Added</h5>
                             <Image
-                                src={''}
-                                alt=''
-                                height={240}
-                                width={347}
+                                className={styles.imgPers}
+                                src={'/images/innersight/logoWC.png'}
+                                alt='original logo with color'
+                                height={190}
+                                width={400}
                             />
                         </div>
                         <div className={styles.logoRight}>
                             <h5 className={styles.logoSubHead}>Redesign</h5>
                             <Image
-                                src={''}
-                                alt=''
+                                className={styles.imgPers}
+                                src={'/images/innersight/logoOnP.png'}
+                                alt='final logo'
                                 height={360}
-                                width={438}
+                                width={600}
                             />
                             <p className={styles.pSpaceAdded}>The redesign focused on taking the same line and blob style but applyign it in a more uplifting way to reflect the positive results Innersight can bring to users.</p>
                         </div>
