@@ -62,13 +62,13 @@ export default function Home() {
             width={450}
             height={400}
           />
-          <ProjectCard
+          {/* <ProjectCard
             title="Borderless"
             subtitle="January - May 2023"
             description='Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.'
             projectURL='/projectOne'
             imageSrc=''
-          />
+          /> */}
           <ProjectCard
             title="i18n Showcase - BCIT English-French"
             subtitle="February - March 2023"
@@ -78,13 +78,13 @@ export default function Home() {
             width={600}
             height={370}
           />
-          <ProjectCard
+          {/* <ProjectCard
             title="Pagepal"
             subtitle="April - May 2023"
             description='Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.'
             projectURL='/projectThree'
             imageSrc=''
-          />
+          /> */}
         </div>
         <div id="contactSection" className={styles.contactSection}>
           <Contact />
