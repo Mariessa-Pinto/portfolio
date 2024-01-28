@@ -116,7 +116,7 @@ export default function ProjectOne() {
                 <OtherProjects
                         link1='/caseStudy'
                         title1='Innersight'
-                        imageURL1=''
+                        imageURL1='/images/innersight/logoOnP.png'
                         link2='/projectThree'
                         title2='PagePal'
                         imageURL2=''
