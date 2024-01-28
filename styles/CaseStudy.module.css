@@ -678,8 +678,9 @@
     width: 80vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-end;
+    gap: 8rem;
 }
 
 .solButton {
@@ -696,7 +697,6 @@
 .solBottom {
     display: flex;
     gap: 2rem;
-    margin-top: 2rem;
 }
 
 .solTop {
@@ -708,7 +708,7 @@
 }
 
 .solPadding {
-    padding-bottom: 9rem;
+    padding-bottom: 7rem;
 }
 
 .solLessPadding {
