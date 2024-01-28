@@ -25,6 +25,7 @@ export default function OtherProjects({
                         <div className={styles.projectButton}>
                             <div className={styles.leftSide}>
                                 <Image
+                                    className={styles.img}
                                     src={imageURL1}
                                     alt=''
                                     width={256}
@@ -45,6 +46,7 @@ export default function OtherProjects({
                         <div className={styles.projectButton}>
                             <div className={styles.leftSide}>
                                 <Image
+                                    className={styles.img}
                                     src={imageURL2}
                                     alt=''
                                     width={256}
@@ -65,6 +67,7 @@ export default function OtherProjects({
                         <div className={styles.projectButton}>
                             <div className={styles.leftSide}>
                                 <Image
+                                    className={styles.img}
                                     src={imageURL3}
                                     alt=''
                                     width={256}
