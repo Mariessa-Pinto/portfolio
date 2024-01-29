@@ -38,7 +38,7 @@
 }
 
 .topHeader {
-    font-size: var(--h1);
+    font-size: 85px;
     font-weight: var(--light);
     line-height: var(--h1-space);
     margin: 0;
@@ -81,6 +81,12 @@
     margin: 0;
 }
 
+.img {
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px var(--green80);
+}
+
 /* Challenges */
 
 .challenge {
@@ -98,6 +104,7 @@
     flex-direction: row;
     width: 80vw;
     justify-content: space-between;
+    gap: 3rem;
 }
 
 .chalImage {

@@ -594,7 +594,7 @@ export default DonutChart;
                         imageURL2=''
                         link3='/projectTwo'
                         title3='i18n Showcase'
-                        imageURL3=''
+                        imageURL3='/images/i18n/BCITNav.png'
                     />
                 </div>
                 {/* Contact */}

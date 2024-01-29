@@ -59,6 +59,7 @@
   font-size: var(--p);
   border-radius: 10px;
   border: none;
+  cursor: pointer;
 }
 
 .title {

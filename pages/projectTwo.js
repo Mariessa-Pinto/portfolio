@@ -33,10 +33,11 @@ export default function ProjectTwo() {
                         </div>
                         <div className={styles.mainImage}>
                             <Image
-                                src={""}
+                                className={styles.img}
+                                src={"/images/i18n/BCITSite.png"}
                                 alt=''
-                                width={440}
-                                height={577}
+                                width={600}
+                                height={400}
                             />
                         </div>
                     </div>
@@ -49,10 +50,11 @@ export default function ProjectTwo() {
                     <div className={styles.chalSection}>
                         <div className={styles.chalImage}>
                             <Image
-                                src={''}
-                                alt=''
-                                height={477}
-                                width={440}
+                                className={styles.img}
+                                src={'/images/i18n/translate.png'}
+                                alt='translation screens'
+                                height={500}
+                                width={600}
                             />
                         </div>
                         <div className={styles.chalText}>
