@@ -4,6 +4,8 @@ import styles from '@/styles/Designs.module.css'
 import Link from 'next/link'
 import Navbar from '@/components/Navbar'
 import Contact from '@/components/Contact'
+import video from '../public/innersightCommercial.mp4';
+
 
 export default function Designs() {
     return (
@@ -19,12 +21,42 @@ export default function Designs() {
                     <Navbar />
                     <div className={styles.topContent}>
                         <div>
-                            <h1>Under Construction</h1>
-                            <h1>Design Projects</h1>
+                            <h1 className={styles.title}>Design Projects</h1>
+                            <p className={styles.p}>A selection of design projects</p>
                         </div>
                     </div>
                 </div>
                 <div className={styles.grid}>
+                <div className={styles.projects}>
+                        <div className={styles.row1}>
+                            <div className={styles.projectOne}>
+                                <Image 
+                                    className={styles.creature}
+                                    src={'/images/designs/viego.png'}
+                                    alt='Viego'
+                                    height={462}
+                                    width={380}
+                                />
+                            </div>
+                            <div className={styles.projectTwo}>
+                                <video style={{ width: '100%', height: '100%', borderRadius: 20, boxShadow: '10px 10px 10px var(--green80)' }} controls>
+                                    <source src={video} type="video/mp4" />
+                                </video>
+                            </div>
+                        </div>
+                        <div className={styles.row2}>
+
+                        </div>
+                        <div className={styles.row3}>
+
+                        </div>
+                        <div className={styles.row4}>
+
+                        </div>
+                        <div className={styles.row5}>
+
+                        </div>
+                    </div>
                 </div>
                 <div id="contactSection" className={styles.contactSection}>
                     <Contact />
