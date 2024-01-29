@@ -34,10 +34,10 @@ export default function ProjectTwo() {
                         <div className={styles.mainImage}>
                             <Image
                                 className={styles.img}
-                                src={"/images/i18n/BCITSite.png"}
-                                alt=''
+                                src={"/images/i18n/allScreens.png"}
+                                alt='bcit screens'
                                 width={600}
-                                height={400}
+                                height={450}
                             />
                         </div>
                     </div>
@@ -81,7 +81,7 @@ export default function ProjectTwo() {
                             <div className={styles.solPadding}>
                                 <Image
                                     className={styles.img}
-                                    src={'/images/i18n/allScreens.png'}
+                                    src={'/images/i18n/BCITSite.png'}
                                     alt='all screens'
                                     height={500}
                                     width={800}
