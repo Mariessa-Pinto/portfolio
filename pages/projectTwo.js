@@ -80,26 +80,20 @@ export default function ProjectTwo() {
                         <div className={styles.solMiddle}>
                             <div className={styles.solPadding}>
                                 <Image
-                                    src={''}
-                                    alt=''
-                                    height={361}
-                                    width={345}
+                                    className={styles.img}
+                                    src={'/images/i18n/allScreens.png'}
+                                    alt='all screens'
+                                    height={500}
+                                    width={800}
                                 />
-                            </div>
-                            <div className={styles.solLessPadding}>
-                            <Image
-                                src={''}
-                                alt=''
-                                height={361}
-                                width={345}
-                            />
                             </div>
                             <div className={styles.solMWText}>
                                 <Image
-                                    src={''}
-                                    alt=''
-                                    height={361}
-                                    width={345}
+                                    className={styles.img}
+                                    src={'/images/i18n/Eng-Fren.png'}
+                                    alt='English and French'
+                                    height={320}
+                                    width={350}
                                 />
                                 <h3 className={styles.solSubHead}>French and English</h3>
                                 <p className={styles.p}>The page is now available in both of Canada's national languages.</p>
