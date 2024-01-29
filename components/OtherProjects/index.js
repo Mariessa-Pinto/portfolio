@@ -27,7 +27,7 @@ export default function OtherProjects({
                                 <Image
                                     className={styles.img}
                                     src={imageURL1}
-                                    alt=''
+                                    alt={title1}
                                     width={256}
                                     height={60}
                                 />
@@ -35,8 +35,8 @@ export default function OtherProjects({
                             </div>
                             <Image
                                 className={styles.image}
-                                src={''}
-                                alt=''
+                                src={'/icons/rightArrow.svg'}
+                                alt='right arrow'
                                 width={72}
                                 height={52}
                             />
@@ -48,7 +48,7 @@ export default function OtherProjects({
                                 <Image
                                     className={styles.img}
                                     src={imageURL2}
-                                    alt=''
+                                    alt={title2}
                                     width={256}
                                     height={60}
                                 />
@@ -56,8 +56,8 @@ export default function OtherProjects({
                             </div>
                             <Image
                                 className={styles.image}
-                                src={''}
-                                alt=''
+                                src={'/icons/rightArrow.svg'}
+                                alt='right arrow'
                                 width={72}
                                 height={52}
                             />
@@ -69,7 +69,7 @@ export default function OtherProjects({
                                 <Image
                                     className={styles.img}
                                     src={imageURL3}
-                                    alt=''
+                                    alt={title3}
                                     width={256}
                                     height={60}
                                 />
@@ -77,8 +77,8 @@ export default function OtherProjects({
                             </div>
                             <Image
                                 className={styles.image}
-                                src={''}
-                                alt=''
+                                src={'/icons/rightArrow.svg'}
+                                alt='right arrow'
                                 width={72}
                                 height={52}
                             />

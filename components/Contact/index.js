@@ -40,7 +40,7 @@ export default function Contact() {
                                 <button className={styles.button}>
                                     <Image
                                         src={'./icons/github.svg'}
-                                        alt=''
+                                        alt='github icon'
                                         width={30}
                                         height={30}
                                     />
@@ -51,7 +51,7 @@ export default function Contact() {
                                 <button className={styles.button}>
                                     <Image
                                         src={'./icons/linkedin.svg'}
-                                        alt=''
+                                        alt='linkedin icon'
                                         width={30}
                                         height={30}
                                     />
@@ -60,28 +60,28 @@ export default function Contact() {
                             </Link>
                         </div>
                         <div className={styles.bottomButtons}>
-                            <Link href='' className={styles.buttonLink}>
+                            <a href='Resume.pdf' target="_blank" className={styles.buttonLink}>
                                 <button className={styles.button}>
                                     <Image
                                         src={'./icons/resume.svg'}
-                                        alt=''
+                                        alt='resume icon'
                                         width={24}
                                         height={30}
                                     />
                                     Resume
                                 </button>
-                            </Link>
-                            <Link href='' className={styles.buttonLink}>
+                            </a>
+                            <a href="mailto:mariessa.pinto@shaw.ca" className={styles.buttonLink}>
                                 <button className={styles.button}>
                                     <Image
                                         src={'./icons/email.svg'}
-                                        alt=''
+                                        alt='email icon'
                                         width={30}
                                         height={24}
                                     />
                                     Email
                                 </button>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>

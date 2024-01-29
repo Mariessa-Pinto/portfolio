@@ -74,9 +74,9 @@ export default function Home() {
             subtitle="February - March 2023"
             description='Coded a page from the BCIT website using i18n to provide internationalization through the dynamic translation of the page. It is available in French and in English and can be changed live.'
             projectURL='/projectTwo'
-            imageSrc='/images/i18n/i18nFrench.png'
-            width={600}
-            height={370}
+            imageSrc='/images/i18n/oneScreen.png'
+            width={690}
+            height={390}
           />
           {/* <ProjectCard
             title="Pagepal"
