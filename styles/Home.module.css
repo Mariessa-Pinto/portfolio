@@ -18,7 +18,7 @@
 }
 
 .introSection {
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   background-color: var(--green80);
   padding-top: 4rem;
@@ -103,6 +103,17 @@
 }
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
- 
+@media (max-width: 1120px) {
+  .topContent {
+    flex-direction: column-reverse;
+  }
+  .mainImage {
+    justify-content: center;
+  }
+  .mainText {
+    max-width: 100%;
+  }
+  .topContent {
+    margin-bottom: 5rem;
+  }
 }

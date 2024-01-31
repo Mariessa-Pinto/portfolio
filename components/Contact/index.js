@@ -29,7 +29,7 @@ export default function Contact() {
         <>
             <main className={styles.main}>
                 <div className={styles.mainSection}>
-                    <div>
+                    <div className={styles.textBox}>
                         <h2 className={styles.header}>Contact me</h2>
                         <p className={styles.text}>Think I would make a good fit?</p>
                         <p className={styles.text}>Reach out or follow my work</p>

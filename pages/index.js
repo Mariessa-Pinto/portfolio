@@ -75,7 +75,7 @@ export default function Home() {
             description='Coded a page from the BCIT website using i18n to provide internationalization through the dynamic translation of the page. It is available in French and in English and can be changed live.'
             projectURL='/projectTwo'
             imageSrc='/images/i18n/oneScreen.png'
-            width={690}
+            width={500}
             height={390}
           />
           {/* <ProjectCard
