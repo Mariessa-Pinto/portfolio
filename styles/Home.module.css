@@ -99,7 +99,18 @@
 
 /* Mobile */
 @media (max-width: 700px) {
-  
+  .title {
+    font-size: var(--h1-mobile);
+  }
+  .subtitle {
+    font-size: var(--h2-mobile);
+  }
+  .shortDes {
+    font-size: var(--h5-mobile);
+  }
+  .smallDes {
+    font-size: var(--p);
+  }
 }
 
 /* Tablet and Smaller Desktop */

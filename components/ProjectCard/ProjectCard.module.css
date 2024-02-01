@@ -56,7 +56,27 @@
 
 /* Mobile */
 @media (max-width: 700px) {
-  
+    .image {
+        flex: 1;
+        padding: 2rem;
+    }
+    .img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .info {
+        padding: 2rem;
+    }
+    .title {
+        font-size: var(--h3-mobile);
+    }
+    .dates {
+        font-size: var(--subtitle-mobile);
+    }
+    .button {
+        width: 240px;
+    }
 }
 
 /* Tablet and Smaller Desktop */

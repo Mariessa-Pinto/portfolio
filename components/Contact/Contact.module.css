@@ -114,7 +114,25 @@
 
 /* Mobile */
 @media (max-width: 700px) {
-  
+    .topButtons {
+        flex-direction: column;
+    }
+    
+    .bottomButtons {
+        flex-direction: column;
+    }
+    .line {
+        width: 170px;
+        height: 4px;
+        background-color: var(--green);
+        border-radius: 5px;
+    }
+    .header {
+        font-size: var(--h2-mobile);
+    }
+    .text {
+        font-size: var(--subtitle-mobile);
+    }
 }
 
 /* Tablet and Smaller Desktop */
