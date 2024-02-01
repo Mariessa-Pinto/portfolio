@@ -182,6 +182,7 @@ export default function CaseStudy() {
                         </div>
                         <div className={styles.logoRight}>
                             <h5 className={styles.logoSubHead}>Redesign</h5>
+                            <div className={styles.imgResponsive}>
                             <Image
                                 className={styles.imgPers}
                                 src={'/images/innersight/logoOnP.png'}
@@ -189,6 +190,7 @@ export default function CaseStudy() {
                                 height={360}
                                 width={600}
                             />
+                            </div>
                             <p className={styles.pSpaceAdded}>The redesign focused on taking the same line and blob style but applyign it in a more uplifting way to reflect the positive results Innersight can bring to users.</p>
                         </div>
                     </div>
@@ -367,7 +369,7 @@ export default function CaseStudy() {
                         <div className={styles.emoTop}>
                             <div className={styles.emoImage}>
                                 <Image
-                                    className={styles.imgPers}
+                                    className={styles.imgEmo}
                                     src={'/images/innersight/chart.png'}
                                     alt='pie chart'
                                     height={408}

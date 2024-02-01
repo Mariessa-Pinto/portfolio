@@ -20,13 +20,14 @@
 }
 
 .introSection {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: var(--green50);
     padding-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 4rem;
 }
 
 .mainImage {
@@ -36,7 +37,7 @@
 }
 
 .mainText {
-    max-width: 40rem;
+    max-width: 30rem;
 }
 
 .topHeader {
@@ -86,13 +87,14 @@
 /* Challenges */
 
 .challenges {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: var(--green80);
     padding-top: 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 4rem;
 }
 
 .chalSection {
@@ -109,7 +111,7 @@
 }
 
 .chalText {
-    max-width: 40rem;
+    max-width: 30rem;
 }
 
 .alignText {
@@ -162,18 +164,22 @@
     object-fit: cover;
     border-radius: 20px;
     box-shadow: 10px 10px 10px var(--green80);
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Reasearch */
 
 .research {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: var(--green50);
     padding-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 4rem;
 }
 
 .resSection {
@@ -184,7 +190,7 @@
 }
 
 .resText {
-    max-width: 40rem;
+    max-width: 30rem;
 }
 
 .resImage {
@@ -205,7 +211,7 @@
 
 .resImages {
     border-radius: 20px;
-    object-fit: cover;    
+    object-fit: cover;
     box-shadow: 10px 10px 10px var(--green80);
 }
 
@@ -239,13 +245,14 @@
 /* Persona */
 
 .persona {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: var(--green80);
     padding-top: 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 2rem;
 }
 
 .persHeader {
@@ -259,24 +266,29 @@
     display: flex;
     align-items: center;
     margin-top: 2rem;
+    max-width: 80vw;
 }
 
 .imgPers {
     border-radius: 20px;
-    object-fit: cover;    
+    object-fit: cover;
     box-shadow: 10px 10px 10px var(--green80);
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Mapping */
 
 .mapping {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: var(--green80);
     padding-top: 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 2rem;
 }
 
 .mapSection {
@@ -287,7 +299,7 @@
 }
 
 .mapText {
-    max-width: 40rem;
+    max-width: 30rem;
     padding-top: 6rem;
     padding-left: 8rem;
     padding-right: 2rem;
@@ -317,13 +329,14 @@
 /* Logo */
 
 .logo {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: var(--green50);
     padding-top: 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 2rem;
 }
 
 .logoSection {
@@ -368,12 +381,13 @@
 /* Colors and Mascots */
 
 .colors {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: var(--green50);
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 2rem;
 }
 
 .colorSection {
@@ -483,7 +497,7 @@
     align-items: center;
 }
 
-.mascotLeft { 
+.mascotLeft {
     padding-right: 2rem;
     display: flex;
     flex-direction: column;
@@ -537,13 +551,14 @@
 /* Sentiment Analysis */
 
 .sentiment {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: var(--green80);
     padding-top: 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 2rem;
 }
 
 .sentSection {
@@ -554,7 +569,7 @@
 }
 
 .sentText {
-    max-width: 40rem;
+    max-width: 30rem;
     padding-top: 2rem;
     padding-left: 8rem;
     padding-right: 2rem;
@@ -592,13 +607,14 @@
 /* Emotions */
 
 .emotions {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: var(--green50);
     padding-top: 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 4rem;
 }
 
 .emoSection {
@@ -648,16 +664,23 @@
     margin-bottom: 1rem;
 }
 
+.imgEmo {
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 10px 10px 10px var(--green80);
+}
+
 /* Solution */
 
 .solution {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: var(--green80);
     padding-top: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 2rem;
 }
 
 .solSection {
@@ -731,4 +754,241 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+    .topHeader {
+        font-size: var(--h1-mobile);
+    }
+    .topDates {
+        font-size: var(--subtitle-mobile);
+    } 
+    .topSubHeader {
+        font-size: var(--h2-mobile);
+    }
+    .subHeaderTwo {
+        font-size: var(--h3-mobile);
+    }
+    .chalHeader {
+        font-size: var(--h2-mobile);
+    }
+    .chalSubHead {
+        font-size: var(--h3-mobile);
+    } 
+    .resSubtitle {
+        font-size: var(--h3-mobile);
+    }
+    .resSubHead {
+        font-size: var(--h4-mobile);
+    }
+    .resSubHeadTwo {
+        font-size: var(--h5-mobile);
+    }
+    .persHeader {
+        font-size: var(--h4-mobile);
+    }
+    .mapHeader {
+        font-size: var(--h4-mobile);
+    }
+    .mapSubHead {
+        font-size: var(--h5-mobile);
+    }
+    .logoHeader {
+        font-size: var(--h4-mobile);
+    }
+    .logoSubHead {
+        font-size: var(--h5-mobile);
+    }
+    .colorHeader {
+        font-size: var(--h4-mobile);
+    }
+    .colorSubHead {
+        font-size: var(--h5-mobile);
+    }
+    .mascotHeader {
+        font-size: var(--h4-mobile);
+    }
+    .mascotSubHead {
+        font-size: var(--h5-mobile);
+    }
+    .sentHeader {
+        font-size: var(--h3-mobile);
+    }
+    .sentSubHead {
+        font-size: var(--h4-mobile);
+    }
+    .sentSubHeadTwo {
+        font-size: var(--h5-mobile);
+    }
+    .emoHeader {
+        font-size: var(--h4-mobile);
+    }
+    .emoSubHead {
+        font-size: var(--h5-mobile);
+    }
+    .solHeader {
+        font-size: var(--h2-mobile);
+    }
+    .solSubHead {
+        font-size: var(--h3-mobile);
+    }
+    .resImages {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .paddingRight {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .squaresTop {
+        flex-direction: column;
+    }
+    .squaresBottom {
+        flex-direction: column;
+    }
+    .colorRight {
+        gap: 1.5rem;
+    }
+    .mascotSection {
+        flex-direction: column;
+    }
+    .solBottom {
+        flex-direction: column;
+    }
+    .imgEmo {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .persona {
+        min-height: auto;
+        padding-top: 2rem;
+    }
+}
+
+
+/* Tablet and Smaller Desktop */
+@media (max-width: 1120px) {
+    .topContent {
+        flex-direction: column-reverse;
+    }
+    .logoSection {
+        flex-direction: column;
+    }
+    .imgResponsive {
+        flex: 1;
+    }
+    .chalSection {
+        flex-direction: column;
+    }
+    .resSection {
+        flex-direction: column;
+    }
+    .mapSection {
+        flex-direction: column-reverse;
+    }
+    .colorSection {
+        flex-direction: column;
+    }
+    .sentSection {
+        flex-direction: column;
+    }
+    .emoTop {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+    .solMiddle {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+    .resText {
+        max-width: 40rem;
+    }
+    .mapping {
+        padding-top: 0rem;
+    }
+    .mapText {
+        max-width: 40rem;
+        padding: 0;
+    }
+    .logoLeft {
+        padding-left: 0;
+    }
+    .logoRight {
+        padding-left: 0;
+    }
+    .colors {
+        padding-top: 4rem;
+    }
+    .colorRight {
+        padding-top: 2rem;
+    }
+    .colors {
+        padding-bottom: 4rem;
+    }
+    .sentText {
+        max-width: 40rem;
+        padding: 0;
+    }
+    .sentiment {
+        padding-bottom: 4rem;
+    }
+    .emotions {
+        padding-top: 4rem;
+    }
+    .emoSection {
+        width: 80vw;
+        align-items: flex-start;
+    }
+    .emoText {
+        max-width: 40rem;
+        padding: 0;
+    }
+    .alignTextS {
+        width: 80vw;
+    }
+    .solSection {
+        gap: 2rem;
+    }
+    .solPadding {
+        padding: 0;
+    }
+    .solMWText {
+        max-width: 45rem;
+    }
+    .solBottom {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .mainText {
+        max-width: 45rem;
+    }
+    .chalText {
+        max-width: 45rem;
+    }
+    .indent {
+        padding: 0;
+    }
+    .resImage {
+        align-items: flex-start;
+    }
+    .solButton {
+        width: 250px;
+    }
+}
+
+@media (max-width: 400px) {
+    .topHeader {
+        font-size: 55px;
+    }
+    .persona {
+        min-height: auto;
+        padding-top: 2rem;
+    }
 }

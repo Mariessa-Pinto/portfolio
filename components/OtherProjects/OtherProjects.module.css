@@ -3,8 +3,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-left: 6rem;
-    padding-right: 6rem;
     font-family: var(--poppins);
     padding-bottom: 8rem;
 }
@@ -16,7 +14,7 @@
 }
 
 .projectButton {
-    width: 900px;
+    width: 80vw;
     height: 112px;
     background-color: var(--green);
     border-radius: 20px;
@@ -66,4 +64,39 @@
 .img {
     object-fit: cover;
     border-radius: 10px;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+    .leftSide {
+        flex-direction: column;
+        gap: 0rem;
+        padding: 1rem;
+    }
+    .projectButton {
+        height: auto;
+    }
+    .image {
+        display: none;
+    }
+}
+
+/* Tablet and Smaller Desktop */
+@media (max-width: 1120px) {
+    .leftSide {
+        flex-direction: column;
+        gap: 0rem;
+        padding: 1rem;
+    }
+    .projectButton {
+        height: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
 }
