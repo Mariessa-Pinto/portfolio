@@ -35,7 +35,7 @@ export default function CaseStudy() {
                         </div>
                         <div className={styles.mainImage}>
                             <div className={styles.imageContent}>
-                                <video style={{ width: '100%', height: '99%', borderRadius: 20, boxShadow: '10px 10px 10px var(--green80)' }} autoPlay muted controls>
+                                <video style={{ width: '100%', height: '100%', borderRadius: 20, boxShadow: '10px 10px 10px var(--green80)' }} autoPlay muted controls>
                                     <source src={video} type="video/mp4" />
                                 </video>
                             </div>

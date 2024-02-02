@@ -41,8 +41,9 @@ export default function Home() {
             </div>
             <div className={styles.mainImage}>
               <Image
-                src={""}
-                alt=''
+                className={styles.img}
+                src={"/images/home/logoWShadow.png"}
+                alt='my world'
                 width={532}
                 height={582}
               />
@@ -62,13 +63,13 @@ export default function Home() {
             width={450}
             height={400}
           />
-          {/* <ProjectCard
+          <ProjectCard
             title="Borderless"
             subtitle="January - May 2023"
             description='Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.'
             projectURL='/projectOne'
             imageSrc=''
-          /> */}
+          />
           <ProjectCard
             title="i18n Showcase - BCIT English-French"
             subtitle="February - March 2023"

@@ -36,6 +36,10 @@
     margin-top: 3rem;
 }
 
+.imageContent {
+    max-width: 40rem;
+}
+
 .mainText {
     max-width: 30rem;
 }
@@ -688,6 +692,7 @@
     flex-direction: column;
     width: 80vw;
     justify-content: space-between;
+    gap: 2rem
 }
 
 .solHeader {
