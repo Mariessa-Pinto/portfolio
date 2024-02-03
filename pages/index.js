@@ -66,9 +66,11 @@ export default function Home() {
           <ProjectCard
             title="Borderless"
             subtitle="January - May 2023"
-            description='Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.'
+            description='A web app designed for refugees settling in Canada. The premise of the app allows curated content for users depending on their responses to a “Getting to Know You” quiz. The curated content includes suggestions for activities in their area, local resources such as clothing, food, shelter or communities, weather from their home region as well as stories of hope and help from their region of origin.'
             projectURL='/projectOne'
-            imageSrc=''
+            imageSrc='/images/borderless/borderlessHomeNoHand.png'
+            width={400}
+            height={500}
           />
           <ProjectCard
             title="i18n Showcase - BCIT English-French"

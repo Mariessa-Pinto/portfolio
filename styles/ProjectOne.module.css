@@ -18,7 +18,7 @@
 }
 
 .introSection {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: var(--green80);
     padding-top: 4rem;
@@ -84,7 +84,7 @@
 /* Challenges */
 
 .challenge {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: var(--green50);
     padding-top: 6rem;
@@ -148,10 +148,18 @@
     line-height: var(--p-extra);
 }
 
+.bold {
+    font-size: var(--p);
+    font-weight: var(--semibold);
+    text-decoration: none;
+    margin: 0;
+    line-height: var(--p-extra);
+}
+
 /* Solution */
 
 .solution {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: var(--green80);
     padding-top: 6rem;
@@ -218,6 +226,15 @@
     margin-top: 1rem;
 }
 
+.img {
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px var(--green80);
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 /* Other Projects */
 
 .otherProjects {
@@ -229,3 +246,11 @@
     align-items: center;
 }
 
+/* Mobile */
+@media (max-width: 700px) {
+}
+
+/* Tablet and Smaller Desktop */
+@media (max-width: 1120px) {
+
+}

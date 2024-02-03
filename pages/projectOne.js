@@ -23,20 +23,21 @@ export default function ProjectOne() {
                             <h1 className={styles.topHeader}>Borderless</h1>
                             <p className={styles.topDates}>January - May 2023</p>
                             <h2 className={styles.topSubHeader}>Problem</h2>
-                            <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <p className={styles.p}>New immigrants to Canada often struggle with diaspora and finding their own community. On top of these struggles, they may lack access to basic needs such as clothing, food or shelter. The design of Borderless must be welcoming to these communities and help the individual feel at home in their new life.</p>
                             <h3 className={styles.subHeaderTwo}>Summary</h3>
-                            <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <p className={styles.p}>A web app designed for refugees settling in Canada. The premise of the app allows curated content for users depending on their responses to a “Getting to Know You” quiz. The curated content includes suggestions for activities in their area, local resources such as clothing, food, shelter or communities, weather from their home region as well as stories of hope and help from their region of origin.</p>
                             <h3 className={styles.subHeaderTwo}>Roles</h3>
                             <ul className={styles.list}>
-                                <li className={styles.listItem}>Project Manager</li>
-                                <li className={styles.listItem}>Full-Stack Web Developer</li>
+                                <li className={styles.listItem}>UX/UI Designer</li>
+                                <li className={styles.listItem}>Front-End Web Developer</li>
                             </ul>
                         </div>
                         <div className={styles.mainImage}>
                             <Image
-                                src={""}
+                                className={styles.img}
+                                src={"/images/borderless/screens.png"}
                                 alt=''
-                                width={440}
+                                width={500}
                                 height={577}
                             />
                         </div>
@@ -50,20 +51,20 @@ export default function ProjectOne() {
                     <div className={styles.chalSection}>
                         <div className={styles.chalImage}>
                             <Image
-                                src={''}
-                                alt=''
+                                className={styles.img}
+                                src={'/images/borderless/testing.png'}
+                                alt='user testing results'
                                 height={477}
-                                width={440}
+                                width={600}
                             />
                         </div>
                         <div className={styles.chalText}>
-                            <h3 className={styles.chalSubHead}>Subtitle</h3>
-                            <p className={styles.pSpaceAddedd}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <h3 className={styles.chalSubHead}>Design to Empower New Beginnigns</h3>
+                            <p className={styles.pSpaceAddedd}>The biggest design challenge of Borderless was creating a user friendly webapp that enables users who are in vulnerable senarios find appropriate support. Important considerations include:</p>
                             <ul className={styles.listS}>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
-                                <li className={styles.listItemS}>Lorem ipsum dolor sit amet consectetur.</li>
+                                <li className={styles.listItemS}><p className={styles.bold}>Cultural Intgration: </p>Include a feature to connect users to local communities to reduce feelings of diaspora.</li>
+                                <li className={styles.listItemS}><p className={styles.bold}>Basic Needs Accessibility: </p>Incorporate a resource section that connects users to basic needs such as clothing, food, shelters and community centers.</li>
+                                <li className={styles.listItemS}><p className={styles.bold}>Emotional Support: </p>Integrate a support system that displays positive stories from others who have successfully transitioned to life in Canada to support emotional challenges.</li>
                             </ul>
                         </div>
                     </div>
@@ -74,7 +75,7 @@ export default function ProjectOne() {
                     </div>
                     <div className={styles.solSection}>
                         <div className={styles.solTop}>
-                            <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                            <p className={styles.p}>In order to deliver the right information to each user, Borderless uses a "Getting to know you" quiz to curate content based on the users responses.</p>
                         </div>
                         <div className={styles.solMiddle}>
                             <div className={styles.solPadding}>
@@ -98,17 +99,17 @@ export default function ProjectOne() {
                                     height={361}
                                     width={345}
                                 />
-                                <h3 className={styles.solSubHead}>Subtitle</h3>
-                                <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. Scelerisque sit imperdiet elementum sed in sit orci. Scelerisque sit imperdiet elementum sed in sit orci.</p>
+                                <h3 className={styles.solSubHead}>User-Friendly Interface</h3>
+                                <p className={styles.p}>The priority in the design was maintaining a clean interface that is easy to navigate allowing for accessibility to users of all levels of familiarity with technology.</p>
                             </div>
                         </div>
                         <div className={styles.solBottom}>
-                            <Link href="">
+                            <a target="_blank" href="https://mdia2109-big-project.vercel.app/" rel="noopener noreferrer">
                                 <button className={styles.solButton}>View Project Live</button>
-                            </Link>
-                            <Link href="">
+                            </a>
+                            <a target="_blank" href="https://github.com/Mariessa-Pinto/mdia2109-big-project" rel="noopener noreferrer">
                                 <button className={styles.solButton}>View Code</button>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>
