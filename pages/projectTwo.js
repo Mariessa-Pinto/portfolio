@@ -119,7 +119,7 @@ export default function ProjectTwo() {
                         imageURL2=''
                         link3='/projectOne'
                         title3='Borderless'
-                        imageURL3=''
+                        imageURL3='/images/borderless/logo.png'
                     />
                 </div>
                 <div id="contactSection" className={styles.contactSection}>

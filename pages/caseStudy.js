@@ -590,7 +590,7 @@ export default DonutChart;
                     <OtherProjects
                         link1='/projectOne'
                         title1='Borderless'
-                        imageURL1=''
+                        imageURL1='/images/borderless/logo.png'
                         link2='/projectThree'
                         title2='PagePal'
                         imageURL2=''
