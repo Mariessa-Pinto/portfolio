@@ -65,6 +65,7 @@
   background-color: var(--purple);
   color: var(--white);
   font-size: var(--p);
+  line-height: var(--p-space);
   border-radius: 10px;
   border: none;
   cursor: pointer;
@@ -118,6 +119,7 @@
   }
   .smallDes {
     font-size: var(--p);
+    line-height: var(--p-space);
   }
 }
 

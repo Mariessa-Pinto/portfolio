@@ -5,6 +5,8 @@ import Link from 'next/link'
 import Navbar from '@/components/Navbar'
 import Contact from '@/components/Contact'
 import video from '../public/innersightCommercial.mp4';
+import videoTwo from '../public/map.mp4';
+
 
 
 export default function Designs() {
@@ -27,10 +29,10 @@ export default function Designs() {
                     </div>
                 </div>
                 <div className={styles.grid}>
-                <div className={styles.projects}>
+                    <div className={styles.projects}>
                         <div className={styles.row1}>
                             <div className={styles.projectOne}>
-                                <Image 
+                                <Image
                                     className={styles.creature}
                                     src={'/images/designs/viego.png'}
                                     alt='Viego'
@@ -45,10 +47,40 @@ export default function Designs() {
                             </div>
                         </div>
                         <div className={styles.row2}>
-
+                            <div className={styles.projectThree}>
+                                <Image
+                                    className={styles.creature}
+                                    src={'/images/designs/ebook.png'}
+                                    alt='When Penguins Could Fly'
+                                    height={462}
+                                    width={600}
+                                />
+                            </div>
+                            <div className={styles.projectFour}>
+                                <Image
+                                    className={styles.creature}
+                                    src={'/images/designs/creature.png'}
+                                    alt='creature'
+                                    height={462}
+                                    width={680}
+                                />
+                            </div>
                         </div>
                         <div className={styles.row3}>
-
+                            <div className={styles.projectFive}>
+                                <video style={{ width: '100%', height: '100%', borderRadius: 20, boxShadow: '10px 10px 10px var(--green80)' }} controls>
+                                    <source src={videoTwo} type="video/mp4" />
+                                </video>
+                            </div>
+                            <div className={styles.projectSix}>
+                                <Image
+                                    className={styles.creature}
+                                    src={'/images/designs/sight.png'}
+                                    alt='Sight illustration'
+                                    height={462}
+                                    width={600}
+                                />
+                            </div>
                         </div>
                         <div className={styles.row4}>
 

@@ -64,6 +64,7 @@
 .p {
     font-size: var(--p);
     margin: 0;
+    line-height: var(--p-space);
 }
 
 .subHeaderTwo {
@@ -79,8 +80,10 @@
 
 .listItem {
     font-size: var(--p);
+    line-height: var(--p-space);
     text-decoration: none;
     margin: 0;
+    margin-top: 0.5rem;
 }
 
 .img {
@@ -143,21 +146,22 @@
 }
 
 .pSpaceAdded {
-    line-height: var(--p-extra);
+    line-height: var(--p-space);
     font-size: var(--p);
     margin: 0;
 }
 
 .listS {
     margin: 0;
-    line-height: var(--p-extra);
+    line-height: var(--p-space);
 }
 
 .listItemS {
     font-size: var(--p);
     text-decoration: none;
     margin: 0;
-    line-height: var(--p-extra);
+    line-height: var(--p-space);
+    margin-top: 0.5rem;
 }
 
 /* Solution */
@@ -193,7 +197,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    margin-top: -3rem;
+    margin-top: 0rem;
     gap: 2rem;
 }
 
@@ -203,6 +207,7 @@
     background-color: var(--purple);
     color: var(--white);
     font-size: var(--p);
+    line-height: var(--p-space);
     border-radius: 10px;
     border: none;
     cursor: pointer;

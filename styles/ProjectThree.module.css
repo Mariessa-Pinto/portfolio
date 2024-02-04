@@ -61,6 +61,7 @@
 
 .p {
     font-size: var(--p);
+    line-height: var(--p-space);
     margin: 0;
 }
 
@@ -77,8 +78,10 @@
 
 .listItem {
     font-size: var(--p);
+    line-height: var(--p-space);
     text-decoration: none;
     margin: 0;
+    margin-top: 0.5rem;
 }
 
 /* Challenges */
@@ -131,21 +134,22 @@
 }
 
 .pSpaceAdded {
-    line-height: var(--p-extra);
+    line-height: var(--p-space);
     font-size: var(--p);
     margin: 0;
 }
 
 .listS {
     margin: 0;
-    line-height: var(--p-extra);
+    line-height: var(--p-space);
 }
 
 .listItemS {
     font-size: var(--p);
     text-decoration: none;
     margin: 0;
-    line-height: var(--p-extra);
+    line-height: var(--p-space);
+    margin-top: 0.5rem;
 }
 
 /* Solution */
@@ -188,6 +192,7 @@
     background-color: var(--purple);
     color: var(--white);
     font-size: var(--p);
+    line-height: var(--p-space);
     border-radius: 10px;
     border: none;
     cursor: pointer;

@@ -80,24 +80,20 @@ export default function ProjectOne() {
                         <div className={styles.solMiddle}>
                             <div className={styles.solPadding}>
                                 <Image
-                                    src={''}
-                                    alt=''
-                                    height={361}
-                                    width={345}
+                                    className={styles.img}
+                                    src={'/images/borderless/solution.png'}
+                                    alt='solution screens'
+                                    height={500}
+                                    width={700}
                                 />
                             </div>
-                            <Image
-                                src={''}
-                                alt=''
-                                height={361}
-                                width={345}
-                            />
                             <div className={styles.solMWText}>
                                 <Image
-                                    src={''}
-                                    alt=''
-                                    height={361}
-                                    width={345}
+                                    className={styles.img}
+                                    src={'/images/borderless/quiz.png'}
+                                    alt='a quiz screen'
+                                    height={250}
+                                    width={200}
                                 />
                                 <h3 className={styles.solSubHead}>User-Friendly Interface</h3>
                                 <p className={styles.p}>The priority in the design was maintaining a clean interface that is easy to navigate allowing for accessibility to users of all levels of familiarity with technology.</p>

@@ -19,6 +19,7 @@
 
 .p {
     font-size: var(--p);
+    line-height: var(--p-space);
     margin: 0;
     margin-top: 1rem;
 }
@@ -78,5 +79,41 @@
     object-fit: cover;
     border-radius: 20px;
     box-shadow: 10px 10px 10px var(--green80);
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 80vw;
+    padding-top: 2rem;
+}
+
+.projectThree {
+    width: 50vw;
+    height: 462px;
+}
+
+.projectFour {
+    width: 50vw;
+    height: 462px;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 80vw;
+    padding-top: 2rem;
+}
+
+.projectFive {
+    width: 70vw;
+    height: 100%;
+}
+
+.projectSix {
+    width: 66vw;
+    height: 100%;
 }
 

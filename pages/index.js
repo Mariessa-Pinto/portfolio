@@ -69,8 +69,8 @@ export default function Home() {
             description='A web app designed for refugees settling in Canada. The premise of the app allows curated content for users depending on their responses to a “Getting to Know You” quiz. The curated content includes suggestions for activities in their area, local resources such as clothing, food, shelter or communities, weather from their home region as well as stories of hope and help from their region of origin.'
             projectURL='/projectOne'
             imageSrc='/images/borderless/borderlessHomeNoHand.png'
-            width={400}
-            height={500}
+            width={390}
+            height={400}
           />
           <ProjectCard
             title="i18n Showcase - BCIT English-French"
