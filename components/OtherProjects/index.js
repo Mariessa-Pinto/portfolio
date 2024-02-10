@@ -12,7 +12,10 @@ export default function OtherProjects({
     link2 = "",
     title3 = "title",
     imageURL3 = "",
-    link3 = ""
+    link3 = "",
+    title4 = "title",
+    imageURL4 = "",
+    link4 = ""
 }) {
     return (
         <>
@@ -74,6 +77,27 @@ export default function OtherProjects({
                                     height={60}
                                 />
                                 <h5 className={styles.title}>{title3}</h5>
+                            </div>
+                            <Image
+                                className={styles.image}
+                                src={'/icons/rightArrow.svg'}
+                                alt='right arrow'
+                                width={72}
+                                height={52}
+                            />
+                        </div>
+                    </Link>
+                    <Link href={link4} className={styles.link}>
+                        <div className={styles.projectButton}>
+                            <div className={styles.leftSide}>
+                                <Image
+                                    className={styles.img}
+                                    src={imageURL4}
+                                    alt={title4}
+                                    width={256}
+                                    height={60}
+                                />
+                                <h5 className={styles.title}>{title4}</h5>
                             </div>
                             <Image
                                 className={styles.image}
