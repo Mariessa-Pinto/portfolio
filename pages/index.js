@@ -95,7 +95,9 @@ export default function Home() {
             subtitle="November - December 2023"
             description='A bookshelf management web application using React to allow to user to create, edit and delete bookshelves. Users can then search books from the integrated Google Books API and add them to a shelf.'
             projectURL='/projectThree'
-            imageSrc=''
+            imageSrc='/images/pagepal/pagepal.png'
+            width={500}
+            height={390}
           />
         </div>
         <div id="contactSection" className={styles.contactSection}>

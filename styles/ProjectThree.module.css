@@ -18,10 +18,11 @@
 }
 
 .introSection {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: var(--green80);
     padding-top: 4rem;
+    padding-bottom: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,13 +85,23 @@
     margin-top: 0.5rem;
 }
 
+.img {
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px var(--green80);
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 /* Challenges */
 
 .challenge {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: var(--green50);
     padding-top: 6rem;
+    padding-bottom: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,10 +174,11 @@
 /* Solution */
 
 .solution {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: var(--green80);
     padding-top: 6rem;
+    padding-bottom: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -177,6 +189,7 @@
     flex-direction: column;
     width: 80vw;
     justify-content: space-between;
+    gap: 1rem;
 }
 
 .solHeader {
@@ -218,10 +231,6 @@
 
 .solMWText {
     max-width: 22rem;
-}
-
-.solPadding {
-    padding-bottom: 5rem;
 }
 
 .solSubHead {
@@ -286,5 +295,8 @@
         justify-content: space-between;
         align-items: flex-start;
         margin-top: 2rem;
+    }
+    .solPadding {
+        padding-bottom: 5rem;
     }
 }

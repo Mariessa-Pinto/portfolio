@@ -122,7 +122,7 @@ export default function ProjectTwo() {
                         imageURL3='/images/borderless/logo.png'
                         link4='/projectThree'
                         title4='PagePal'
-                        imageURL4=''
+                        imageURL4='/images/pagepal/logo.png'
                     />
                 </div>
                 <div id="contactSection" className={styles.contactSection}>

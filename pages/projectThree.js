@@ -35,10 +35,11 @@ export default function ProjectThree() {
                         </div>
                         <div className={styles.mainImage}>
                             <Image
-                                src={""}
-                                alt=''
-                                width={440}
-                                height={577}
+                                className={styles.img}
+                                src={"/images/pagepal/home.png"}
+                                alt='home screen'
+                                width={550}
+                                height={650}
                             />
                         </div>
                     </div>
@@ -51,10 +52,11 @@ export default function ProjectThree() {
                     <div className={styles.chalSection}>
                         <div className={styles.chalImage}>
                             <Image
-                                src={''}
-                                alt=''
-                                height={477}
-                                width={440}
+                                className={styles.img}
+                                src={'/images/pagepal/screens.png'}
+                                alt='screens'
+                                height={500}
+                                width={600}
                             />
                         </div>
                         <div className={styles.chalText}>
@@ -80,8 +82,8 @@ export default function ProjectThree() {
                             <div className={styles.solPadding}>
                                 <Image
                                     className={styles.img}
-                                    src={''}
-                                    alt=''
+                                    src={'/images/pagepal/shelf.png'}
+                                    alt='bookshelf'
                                     height={500}
                                     width={700}
                                 />
@@ -89,10 +91,10 @@ export default function ProjectThree() {
                             <div className={styles.solMWText}>
                                 <Image
                                     className={styles.img}
-                                    src={''}
-                                    alt=''
-                                    height={250}
-                                    width={200}
+                                    src={'/images/pagepal/addBook.png'}
+                                    alt='add book feature'
+                                    height={40}
+                                    width={350}
                                 />
                                 <h3 className={styles.solSubHead}>Add Your Books</h3>
                                 <p className={styles.p}>Find any book through the integration of Google Books API and add it to your custom bookshelf.</p>

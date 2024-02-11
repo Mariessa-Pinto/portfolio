@@ -119,7 +119,7 @@ export default function ProjectOne() {
                         imageURL2=''
                         link3='/projectThree'
                         title3='PagePal'
-                        imageURL3=''
+                        imageURL3='/images/pagepal/logo.png'
                         link4='/projectTwo'
                         title4='i18n Showcase'
                         imageURL4='/images/i18n/BCITNav.png'
