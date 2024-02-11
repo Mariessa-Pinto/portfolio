@@ -68,9 +68,9 @@ export default function Home() {
             subtitle="February 2024"
             description='A web app that uses OpenWeather API to fetch the weather data from a city that is entered in the search bar. This project incorporates Typescript and Tailwind CSS.'
             projectURL='/projectFour'
-            imageSrc=''
-            width={390}
-            height={400}
+            imageSrc='/images/nimbus/responsive.png'
+            width={500}
+            height={450}
           />
           <ProjectCard
             title="Borderless"

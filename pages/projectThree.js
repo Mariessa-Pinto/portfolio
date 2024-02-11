@@ -117,7 +117,7 @@ export default function ProjectThree() {
                         imageURL1='/images/innersight/logoOnP.png'
                         link2='/projectFour'
                         title2='Nimbus'
-                        imageURL2=''
+                        imageURL2='/images/nimbus/logo.png'
                         link3='/projectOne'
                         title3='Borderless'
                         imageURL3='/images/borderless/logo.png'
