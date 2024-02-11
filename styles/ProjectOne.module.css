@@ -14,7 +14,6 @@
     flex-direction: row;
     justify-content: space-between;
     width: 80vw;
-    margin-top: 1rem;
     gap: 2rem;
 }
 
@@ -22,11 +21,11 @@
     min-height: 100vh;
     width: 100vw;
     background-color: var(--green80);
-    padding-top: 4rem;
+    padding-top: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 
 .mainImage {
@@ -89,14 +88,14 @@
 /* Challenges */
 
 .challenge {
-    min-height: 100vh;
+    min-height: 85vh;
     width: 100vw;
     background-color: var(--green50);
-    padding-top: 6rem;
+    padding-top: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 
 .chalSection {
@@ -170,7 +169,7 @@
     min-height: 100vh;
     width: 100vw;
     background-color: var(--green80);
-    padding-top: 6rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -248,7 +247,7 @@
 .otherProjects {
     width: 100vw;
     background-color: var(--green50);
-    padding-top: 6rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -35,8 +35,8 @@ export default function ProjectFour() {
                         <div className={styles.mainImage}>
                             <Image
                                 className={styles.img}
-                                src={""}
-                                alt=''
+                                src={"/images/nimbus/nimbus.png"}
+                                alt='nimbus mockup'
                                 width={600}
                                 height={450}
                             />
@@ -52,10 +52,10 @@ export default function ProjectFour() {
                         <div className={styles.chalImage}>
                             <Image
                                 className={styles.img}
-                                src={''}
-                                alt=''
+                                src={'/images/nimbus/forecast.png'}
+                                alt='forecast'
                                 height={500}
-                                width={600}
+                                width={700}
                             />
                         </div>
                         <div className={styles.chalText}>
@@ -81,8 +81,8 @@ export default function ProjectFour() {
                             <div className={styles.solPadding}>
                                 <Image
                                     className={styles.img}
-                                    src={''}
-                                    alt=''
+                                    src={'/images/nimbus/weather.png'}
+                                    alt='weather'
                                     height={500}
                                     width={800}
                                 />
@@ -90,8 +90,8 @@ export default function ProjectFour() {
                             <div className={styles.solMWText}>
                                 <Image
                                     className={styles.img}
-                                    src={''}
-                                    alt=''
+                                    src={'/images/nimbus/name.png'}
+                                    alt='city name validation'
                                     height={320}
                                     width={350}
                                 />

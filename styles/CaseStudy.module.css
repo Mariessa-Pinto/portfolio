@@ -23,11 +23,11 @@
     min-height: 100vh;
     width: 100vw;
     background-color: var(--green50);
-    padding-top: 4rem;
+    padding-top: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 
 .mainImage {
@@ -97,11 +97,11 @@
     min-height: 100vh;
     width: 100vw;
     background-color: var(--green80);
-    padding-top: 6rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 
 .chalSection {
@@ -183,11 +183,11 @@
     min-height: 100vh;
     width: 100vw;
     background-color: var(--green50);
-    padding-top: 4rem;
+    padding-top: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 
 .resSection {
@@ -227,7 +227,6 @@
     font-size: var(--h3);
     font-weight: var(--regular);
     margin: 0;
-    margin-top: 3rem;
 }
 
 .resSubHead {
@@ -256,7 +255,7 @@
     min-height: 100vh;
     width: 100vw;
     background-color: var(--green80);
-    padding-top: 6rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -289,14 +288,14 @@
 /* Mapping */
 
 .mapping {
-    min-height: 100vh;
+    min-height: 80vh;
     width: 100vw;
     background-color: var(--green80);
-    padding-top: 6rem;
+    padding-top: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
 }
 
 .mapSection {
@@ -308,39 +307,57 @@
 
 .mapText {
     max-width: 30rem;
-    padding-top: 6rem;
     padding-left: 8rem;
     padding-right: 2rem;
 }
 
 .mapImage {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 3rem;
+    flex-direction: column-reverse;
+    gap: 1rem;
 }
 
 .mapHeader {
     font-size: var(--h4);
     font-weight: var(--regular);
     margin: 0;
-    margin-top: 2rem;
 }
 
 .mapSubHead {
     font-size: var(--h5);
     font-weight: var(--regular);
     margin: 0;
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
+}
+
+.zoomButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.zoomButton {
+    width: 100px;
+    height: 32px;
+    background-color: var(--purple);
+    color: var(--white);
+    font-size: var(--legal);
+    line-height: var(--p-space);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
 
 /* Logo */
 
 .logo {
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100vw;
     background-color: var(--green50);
-    padding-top: 6rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -395,7 +412,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 
 .colorSection {
@@ -451,42 +468,42 @@
 
 .color1 {
     width: 70px;
-    height: 70px;
+    height: 100px;
     background-color: #6164c3;
     border-radius: 5px;
 }
 
 .color2 {
     width: 70px;
-    height: 70px;
+    height: 100px;
     background-color: #2d3180;
     border-radius: 5px;
 }
 
 .color3 {
     width: 70px;
-    height: 70px;
+    height: 100px;
     background-color: #525585;
     border-radius: 5px;
 }
 
 .color4 {
     width: 70px;
-    height: 70px;
+    height: 100px;
     background-color: #c5c7f7;
     border-radius: 5px;
 }
 
 .color5 {
     width: 70px;
-    height: 70px;
+    height: 100px;
     background-color: #7e82f2;
     border-radius: 5px;
 }
 
 .color6 {
     width: 70px;
-    height: 70px;
+    height: 100px;
     background-color: #f2f2fd;
     border-radius: 5px;
 }
@@ -529,7 +546,7 @@
     font-size: var(--h4);
     font-weight: var(--regular);
     margin: 0;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -560,14 +577,14 @@
 /* Sentiment Analysis */
 
 .sentiment {
-    min-height: 100vh;
+    min-height: 85vh;
     width: 100vw;
     background-color: var(--green80);
-    padding-top: 6rem;
+    padding-top: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
 }
 
 .sentSection {
@@ -594,7 +611,6 @@
     font-size: var(--h3);
     font-weight: var(--regular);
     margin: 0;
-    margin-top: 3rem;
 }
 
 .sentSubHead {
@@ -619,7 +635,7 @@
     min-height: 100vh;
     width: 100vw;
     background-color: var(--green50);
-    padding-top: 6rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -685,7 +701,7 @@
     min-height: 100vh;
     width: 100vw;
     background-color: var(--green80);
-    padding-top: 3rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -761,7 +777,7 @@
 .otherProjects {
     width: 100vw;
     background-color: var(--green50);
-    padding-top: 6rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -923,6 +939,7 @@
     }
     .mapping {
         padding-top: 0rem;
+        padding-bottom: 2rem;
     }
     .mapText {
         max-width: 40rem;

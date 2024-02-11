@@ -18,10 +18,10 @@
 }
 
 .introSection {
-  min-height: 100vh;
+  min-height: 95vh;
   width: 100vw;
   background-color: var(--green80);
-  padding-top: 4rem;
+  padding-top: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,8 +40,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 9.5rem;
-  padding-top: 6rem;
+  gap: 5.5rem;
+  padding-top: 2rem;
   padding-bottom: 6rem;
   background-color: var(--green50);
 }
@@ -50,7 +50,6 @@
   font-size: var(--h2);
   font-weight: var(--light);
   margin-bottom: -4rem;
-  margin-top: 4rem;
 }
 
 .alignTitle {

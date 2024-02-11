@@ -54,8 +54,8 @@ export default function ProjectOne() {
                                 className={styles.img}
                                 src={'/images/borderless/testing.png'}
                                 alt='user testing results'
-                                height={477}
-                                width={600}
+                                height={577}
+                                width={700}
                             />
                         </div>
                         <div className={styles.chalText}>

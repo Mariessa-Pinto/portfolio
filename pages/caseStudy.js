@@ -6,8 +6,20 @@ import Navbar from '@/components/Navbar'
 import Contact from '@/components/Contact'
 import OtherProjects from '@/components/OtherProjects'
 import video from '../public/CustomerLandingPageVideo_1.mp4';
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
+import { useState } from 'react';
 
 export default function CaseStudy() {
+    const [zoomLevel, setZoomLevel] = useState(1);
+
+    const handleZoomIn = () => {
+        setZoomLevel(prevZoomLevel => prevZoomLevel + 0.1);
+    };
+
+    const handleZoomOut = () => {
+        setZoomLevel(prevZoomLevel => Math.max(prevZoomLevel - 0.1, 1));
+    };
+
     return (
         <>
             <Head>
@@ -123,8 +135,8 @@ export default function CaseStudy() {
                             className={styles.imgPers}
                             src={'/images/innersight/personas.png'}
                             alt='user personas'
-                            height={800}
-                            width={1100}
+                            height={700}
+                            width={1000}
                         />
                     </div>
                 </div>
@@ -145,13 +157,22 @@ export default function CaseStudy() {
                             </ul>
                         </div>
                         <div className={styles.mapImage}>
-                            <Image
-                                className={styles.imgPers}
-                                src={'/images/innersight/flow.png'}
-                                alt='user flow'
-                                height={710}
-                                width={622}
-                            />
+                            <div className={styles.zoomButtons}>
+                                <button className={styles.zoomButton} onClick={() => handleZoomIn()}>Zoom In</button>
+                                <button className={styles.zoomButton} onClick={() => handleZoomOut()}>Zoom Out</button>
+                            </div>
+                            <TransformWrapper initialScale={1}>
+                                <TransformComponent>
+                                    <Image
+                                        className={styles.imgPers}
+                                        src={'/images/innersight/flow.png'}
+                                        alt='user flow'
+                                        height={650}
+                                        width={600}
+                                        style={{ transform: `scale(${zoomLevel})` }}
+                                    />
+                                </TransformComponent>
+                            </TransformWrapper>
                         </div>
                     </div>
                 </div>
@@ -183,13 +204,13 @@ export default function CaseStudy() {
                         <div className={styles.logoRight}>
                             <h5 className={styles.logoSubHead}>Redesign</h5>
                             <div className={styles.imgResponsive}>
-                            <Image
-                                className={styles.imgPers}
-                                src={'/images/innersight/logoOnP.png'}
-                                alt='final logo'
-                                height={360}
-                                width={600}
-                            />
+                                <Image
+                                    className={styles.imgPers}
+                                    src={'/images/innersight/logoOnP.png'}
+                                    alt='final logo'
+                                    height={360}
+                                    width={600}
+                                />
                             </div>
                             <p className={styles.pSpaceAdded}>The redesign focused on taking the same line and blob style but applyign it in a more uplifting way to reflect the positive results Innersight can bring to users.</p>
                         </div>
@@ -211,6 +232,7 @@ export default function CaseStudy() {
                                     <div className={styles.color1}></div>
                                     <div className={styles.squareText}>
                                         <p className={styles.p}>Savoy Blue</p>
+                                        <p className={styles.p}>PANTONE 2725 C</p>
                                         <p className={styles.p}>#6164C3</p>
                                         <p className={styles.p}>rgb(97, 100, 195)</p>
                                     </div>
@@ -219,6 +241,7 @@ export default function CaseStudy() {
                                     <div className={styles.color2}></div>
                                     <div className={styles.squareText}>
                                         <p className={styles.p}>Midnight Blue</p>
+                                        <p className={styles.p}>PANTONE 7687 C</p>
                                         <p className={styles.p}>#2D3180</p>
                                         <p className={styles.p}>rgb(45, 49, 128)</p>
                                     </div>
@@ -227,6 +250,7 @@ export default function CaseStudy() {
                                     <div className={styles.color3}></div>
                                     <div className={styles.squareText}>
                                         <p className={styles.p}>Delft Blue</p>
+                                        <p className={styles.p}>PANTONE 7673 C</p>
                                         <p className={styles.p}>#525585</p>
                                         <p className={styles.p}>rgb(82, 85, 133)</p>
                                     </div>
@@ -237,6 +261,7 @@ export default function CaseStudy() {
                                     <div className={styles.color4}></div>
                                     <div className={styles.squareText}>
                                         <p className={styles.p}>Periwinkle</p>
+                                        <p className={styles.p}>PANTONE 2706 C</p>
                                         <p className={styles.p}>#C5C7F7</p>
                                         <p className={styles.p}>rgb(197, 199, 247)</p>
                                     </div>
@@ -245,6 +270,7 @@ export default function CaseStudy() {
                                     <div className={styles.color5}></div>
                                     <div className={styles.squareText}>
                                         <p className={styles.p}>Tropical Indigo</p>
+                                        <p className={styles.p}>PANTONE 2715 C</p>
                                         <p className={styles.p}>#7E82F2</p>
                                         <p className={styles.p}>rgb(126, 130, 242)</p>
                                     </div>
@@ -253,6 +279,7 @@ export default function CaseStudy() {
                                     <div className={styles.color6}></div>
                                     <div className={styles.squareText}>
                                         <p className={styles.p}>Light Lavender</p>
+                                        <p className={styles.p}>PANTONE 663 C</p>
                                         <p className={styles.p}>#F2F2FD</p>
                                         <p className={styles.p}>rgb(242, 242, 253)</p>
                                     </div>
@@ -386,7 +413,7 @@ export default function CaseStudy() {
                                 </ul>
                             </div>
                         </div>
-                        <div style={{overflow: 'auto', maxHeight: '300px', width: '60vw'}}>
+                        <div style={{ overflow: 'auto', maxHeight: '300px', width: '60vw' }}>
                             <pre className={styles.codeContainer}>
                                 <code>
                                     {`
