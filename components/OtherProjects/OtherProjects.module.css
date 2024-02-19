@@ -23,6 +23,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    max-width: 1440px;
 }
 
 .header {
@@ -54,6 +55,7 @@
     width: 80vw;
     display: flex;
     align-items: flex-start;
+    max-width: 1440px;
 }
 
 .link {

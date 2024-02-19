@@ -17,6 +17,7 @@
     justify-content: space-between;
     width: 80vw;
     gap: 1rem;
+    max-width: 1440px;
 }
 
 .introSection {
@@ -109,6 +110,7 @@
     flex-direction: row;
     width: 80vw;
     justify-content: space-between;
+    max-width: 1440px;
 }
 
 .chalImage {
@@ -125,6 +127,7 @@
     width: 80vw;
     display: flex;
     align-items: flex-start;
+    max-width: 1440px;
 }
 
 .chalHeader {
@@ -195,6 +198,7 @@
     flex-direction: row;
     width: 80vw;
     justify-content: space-between;
+    max-width: 1440px;
 }
 
 .resText {
@@ -303,6 +307,7 @@
     flex-direction: row;
     width: 80vw;
     justify-content: space-between;
+    max-width: 1440px;
 }
 
 .mapText {
@@ -369,6 +374,7 @@
     flex-direction: row;
     width: 80vw;
     justify-content: space-between;
+    max-width: 1440px;
 }
 
 .logoLeft {
@@ -420,6 +426,7 @@
     flex-direction: row;
     width: 80vw;
     justify-content: space-between;
+    max-width: 1440px;
 }
 
 .colorLeft {
@@ -513,6 +520,7 @@
     flex-direction: row;
     width: 80vw;
     justify-content: flex-start;
+    max-width: 1440px;
 }
 
 .mascot {
@@ -561,6 +569,7 @@
     width: 80vw;
     display: flex;
     align-items: flex-start;
+    max-width: 1440px;
 }
 
 .pHalf {
@@ -592,6 +601,7 @@
     flex-direction: row;
     width: 80vw;
     justify-content: space-between;
+    max-width: 1440px;
 }
 
 .sentText {
@@ -648,6 +658,7 @@
     width: 65vw;
     justify-content: space-between;
     gap: 3rem;
+    max-width: 1440px;
 }
 
 .emoTop {
@@ -673,6 +684,7 @@
     width: 65vw;
     display: flex;
     align-items: flex-start;
+    max-width: 1440px;
 }
 
 .emoHeader {
@@ -713,7 +725,8 @@
     flex-direction: column;
     width: 80vw;
     justify-content: space-between;
-    gap: 2rem
+    gap: 2rem;
+    max-width: 1440px;
 }
 
 .solHeader {

@@ -29,6 +29,7 @@
     position: relative;
     justify-content: flex-end;
     margin-top: 8rem;
+    max-width: 1440px;
 }
 
 .copyright {
@@ -36,6 +37,7 @@
     position: relative;
     display: flex;
     justify-content: flex-start;
+    max-width: 1440px;
 }
 
 .buttonText {
@@ -87,6 +89,7 @@
     justify-content: space-between;
     width: 80vw;
     align-items: flex-end;
+    max-width: 1440px;
 }
 
 .allButtons {

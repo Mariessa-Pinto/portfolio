@@ -15,6 +15,7 @@
   justify-content: space-between;
   width: 80vw;
   margin-top: 1rem;
+  max-width: 1440px;
 }
 
 .introSection {
@@ -56,6 +57,7 @@
   width: 80vw;
   display: flex;
   align-items: flex-start;
+  max-width: 1440px;
 }
 
 .button {

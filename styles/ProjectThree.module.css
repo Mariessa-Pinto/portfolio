@@ -14,6 +14,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 80vw;
+    max-width: 1440px;
 }
 
 .introSection {
@@ -111,6 +112,7 @@
     width: 80vw;
     justify-content: space-between;
     gap: 1rem;
+    max-width: 1440px;
 }
 
 .chalImage {
@@ -127,6 +129,7 @@
     width: 80vw;
     display: flex;
     align-items: flex-start;
+    max-width: 1440px;
 }
 
 .chalHeader {
@@ -189,6 +192,7 @@
     width: 80vw;
     justify-content: space-between;
     gap: 1rem;
+    max-width: 1440px;
 }
 
 .solHeader {
@@ -205,6 +209,7 @@
     justify-content: space-between;
     align-items: flex-end;
     gap: 1rem;
+    max-width: 1440px;
 }
 
 .solButton {

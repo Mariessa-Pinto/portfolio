@@ -5,6 +5,7 @@
     background-color: var(--green50);
     border-radius: 5px;
     font-family: var(--poppins);
+    max-width: 1440px;
 }
 
 .info {
